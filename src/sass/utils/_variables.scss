@@ -14,3 +14,66 @@
     --product-color-gre:#AEC6A5;
     --copyright-color:#7A7A7A;
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-600.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-700.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-800.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-800.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Montserrat'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-900.woff2') format('woff2'),
+        url('../src/fonts/montserrat-v25-latin_cyrillic-900.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Seymour One'),
+        url('../src/fonts/seymour-one-v20-latin_cyrillic-regular.woff2') format('woff2'),
+        url('../src/fonts/seymour-one-v20-latin_cyrillic-regular.woff') format('woff');
+}
