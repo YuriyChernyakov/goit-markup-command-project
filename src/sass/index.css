@@ -1,0 +1,140 @@
+:root {
+  --button-color-yel:#F8D24E;
+  --button-color-gre:#0A8817;
+  --button-color-gre:#ABABAB;
+  --txt-color-btnwhi:#FCFCFC;
+  --txt-color-btnblck:#000000;
+  --border-color-gre:#96AF8C;
+  --border-color-yel:#EFD478;
+  --border-color-bro:#D6936D;
+  --ingredients-bcgrnd:#9CBE8F;
+  --background-img:#D9D9D9;
+  --txt-color-blck:#131313;
+  --background-gre:#84A178;
+  --product-color-gre:#AEC6A5;
+  --copyright-color:#7A7A7A;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--logo-span);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.page-reviews__container {
+  max-width: 1000px;
+  position: relative;
+}
+
+.page-reviews__box {
+  margin-bottom: 31px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.page-reviews__text {
+  position: absolute;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot .active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+
+}/*# sourceMappingURL=index.css.map */
