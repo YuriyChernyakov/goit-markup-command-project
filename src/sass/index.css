@@ -121,4 +121,12 @@ ol {
     margin-left: auto;
     margin-right: auto;
   }
+}
+.section--gallery {
+  background: linear-gradient(180deg, rgb(132, 161, 120) 0%, rgb(132, 161, 120) 18.5%, rgb(255, 255, 255) 18.5%, rgb(255, 255, 255) 100%);
+}
+
+.gallery__picture {
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=index.css.map */
