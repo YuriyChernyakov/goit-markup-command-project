@@ -1,0 +1,10 @@
+.section--gallery {
+background: linear-gradient(180deg,
+             rgba(132, 161, 120, 1) 0%, rgba(132, 161, 120, 1) 18.5%,
+             rgba(255, 255, 255, 1) 18.5%, rgba(255, 255, 255, 1) 100%);
+}
+
+.gallery__picture {
+    margin-left: auto;
+    margin-right: auto;
+}
