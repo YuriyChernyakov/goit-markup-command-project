@@ -1,0 +1,88 @@
+.advantages {
+    padding: 42px 61px 60px 61px;
+    background-color: #84A178;
+
+    &_list {
+    margin-bottom: -30px;
+    }
+
+    &_content {
+        display: block;
+        margin-bottom: 18px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+    
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    
+        color: #FCFCFC;
+    }
+    &_text {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+    
+        text-align: center;
+    
+        color: #FCFCFC; 
+        margin-bottom: 25px;
+    
+    }
+}
+.title-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F8D24E;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-cow {
+        margin-bottom: 16px;
+    }
+    &-cow::before {
+        content: "/src/images/cow.png";
+        width: 36px;
+        height: 36px;
+    }
+    &-weight{
+        margin-bottom: 16px;
+    }
+    &-weight::before {
+        content: "/src/images/weight.png";
+        width: 36px;
+        height: 36px;
+    }
+    &-ice-crema {
+        margin-bottom: 22px;
+    }
+    &-ice-crema::before {
+        content: "/src/images/ice_crema.png";
+        width: 36px;
+        height: 36px;
+        display: block;
+    }
+}
+
+
