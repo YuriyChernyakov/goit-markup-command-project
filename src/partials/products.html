@@ -2,114 +2,118 @@
   <div class="products__container">
     <span class="products__peculiarity">100% natural</span>
     <h2 class="products__title">products</h2>
-    <li class="products__list">
-      <ul class="products__item">
-        <picture class="products__poto">
-          <source
-            srcset="
-              ./images/desktop/ice-cream-dt.jpg    1x,
-              ./images/desktop/ice-cream-dt@2x.jpg 2x
-            "
-            media="(min-width:1200px)" />
-          <source
-            srcset="
-              ./images/tablet/ice-cream-tab.jpg    1x,
-              ./images/tablet/ice-cream-tab@2x.jpg 2x
-            "
-            media="(min-width:768px)" />
-          <source
-            srcset="
-              ./images/mobile/ice-cream-mob.jpg    1x,
-              ./images/mobile/ice-cream-mob@2x.jpg 2x
-            "
-            media="(max-width:767px)" />
-          <img
-            class="products__img"
-            srcset="./images/desktop/ice-cream-dt.jpg"
-            src="./images/desktop/ice-cream-dt.jpg"
-            alt="ice cream"
-        /></picture>
-        <div class="products__bg ice-cream">
-          <h3 class="products__name">ice cream</h3>
-          <p class="products__text">
-            Soft ice cream with a delicate taste. Made with milk, cream, sugar
-            and natural stabilizer
-          </p>
-          <button type="button" class="open-mobile-menu-products"></button>
-        </div>
-      </ul>
-    </li>
-    <li class="products__list">
-      <ul class="products__item">
-        <picture class="products__poto">
-          <source
-            srcset="
-              ./images/desktop/ice-coffee-dt.jpg    1x,
-              ./images/desktop/ice-coffee-dt@2x.jpg 2x
-            "
-            media="(min-width:1200px)" />
-          <source
-            srcset="
-              ./images/tablet/ice-coffee-tab.jpg    1x,
-              ./images/tablet/ice-coffee-tab@2x.jpg 2x
-            "
-            media="(min-width:768px)" />
-          <source
-            srcset="
-              ./images/mobile/ice-coffee-mob.jpg    1x,
-              ./images/mobile/ice-coffee-mob@2x.jpg 2x
-            "
-            media="(max-width:767px)" />
-          <img
-            class="products__img"
-            srcset="./images/desktop/ice-coffee-dt.jpg"
-            src="./images/desktop/ice-coffee-dt.jpg"
-            alt="ice coffee"
-        /></picture>
-        <div class="products__bg ice-coffee">
-          <h3 class="products__name">ice coffee</h3>
-          <p class="products__text">
-            Fragrant invigorating drink created from 100% natural ingredients
-            without the use of preservatives and flavor enhancers
-          </p>
-        </div>
-      </ul>
-    </li>
-    <li class="products__list">
-      <ul class="products__item">
-        <picture class="products__poto">
-          <source
-            srcset="
-              ./images/desktop/milkshakes-dt.jpg    1x,
-              ./images/desktop/milkshakes-dt@2x.jpg 2x
-            "
-            media="(min-width:1200px)" />
-          <source
-            srcset="
-              ./images/tablet/milkshakes-tab.jpg    1x,
-              ./images/tablet/milkshakes-tab@2x.jpg 2x
-            "
-            media="(min-width:768px)" />
-          <source
-            srcset="
-              ./images/mobile/milkshakes-mob.jpg    1x,
-              ./images/mobile/milkshakes-mob@2x.jpg 2x
-            "
-            media="(max-width:767px)" />
-          <img
-            class="products__img"
-            srcset="./images/desktop/milkshakes-dt.jpg"
-            src="./images/desktop/milkshakes-dt.jpg"
-            alt="ice cream"
-        /></picture>
-        <div class="products__bg milkshakes">
-          <h3 class="products__name">milkshakes</h3>
-          <p class="products__text">
-            Sweet drinks based on milk and ice cream, supplemented with syrups,
-            fruits, berries and other sweets of your choice
-          </p>
-        </div>
-      </ul>
-    </li>
+    <div class="products__set">
+      <li class="products__list products__list-ice-cream">
+        <ul class="products__item products__item-ice-cream">
+          <picture class="products__poto">
+            <source
+              srcset="
+                ./images/desktop/ice-cream-dt.jpg    1x,
+                ./images/desktop/ice-cream-dt@2x.jpg 2x
+              "
+              media="(min-width:1200px)" />
+            <source
+              srcset="
+                ./images/tablet/ice-cream-tab.jpg    1x,
+                ./images/tablet/ice-cream-tab@2x.jpg 2x
+              "
+              media="(min-width:768px)" />
+            <source
+              srcset="
+                ./images/mobile/ice-cream-mob.jpg    1x,
+                ./images/mobile/ice-cream-mob@2x.jpg 2x
+              "
+              media="(max-width:767px)" />
+            <img
+              class="products__img"
+              srcset="./images/desktop/ice-cream-dt.jpg"
+              src="./images/desktop/ice-cream-dt.jpg"
+              alt="ice cream"
+          /></picture>
+          <div class="products__bg ice-cream">
+            <h3 class="products__name">ice cream</h3>
+            <p class="products__text">
+              Soft ice cream with a delicate taste. Made with milk, cream, sugar
+              and natural stabilizer
+            </p>
+            <!-- <button type="button" class="open-mobile-menu-products">
+            <svg class="products__bt-open-menu"><use href=""></use></svg>
+          </button> -->
+          </div>
+        </ul>
+      </li>
+      <li class="products__list products__list-ice-coffee">
+        <ul class="products__item">
+          <picture class="products__poto">
+            <source
+              srcset="
+                ./images/desktop/ice-coffee-dt.jpg    1x,
+                ./images/desktop/ice-coffee-dt@2x.jpg 2x
+              "
+              media="(min-width:1200px)" />
+            <source
+              srcset="
+                ./images/tablet/ice-coffee-tab.jpg    1x,
+                ./images/tablet/ice-coffee-tab@2x.jpg 2x
+              "
+              media="(min-width:768px)" />
+            <source
+              srcset="
+                ./images/mobile/ice-coffee-mob.jpg    1x,
+                ./images/mobile/ice-coffee-mob@2x.jpg 2x
+              "
+              media="(max-width:767px)" />
+            <img
+              class="products__img"
+              srcset="./images/desktop/ice-coffee-dt.jpg"
+              src="./images/desktop/ice-coffee-dt.jpg"
+              alt="ice coffee"
+          /></picture>
+          <div class="products__bg ice-coffee">
+            <h3 class="products__name">ice coffee</h3>
+            <p class="products__text">
+              Fragrant invigorating drink created from 100% natural ingredients
+              without the use of preservatives and flavor enhancers
+            </p>
+          </div>
+        </ul>
+      </li>
+      <li class="products__list products__list-milkshakes">
+        <ul class="products__item">
+          <picture class="products__poto">
+            <source
+              srcset="
+                ./images/desktop/milkshakes-dt.jpg    1x,
+                ./images/desktop/milkshakes-dt@2x.jpg 2x
+              "
+              media="(min-width:1200px)" />
+            <source
+              srcset="
+                ./images/tablet/milkshakes-tab.jpg    1x,
+                ./images/tablet/milkshakes-tab@2x.jpg 2x
+              "
+              media="(min-width:768px)" />
+            <source
+              srcset="
+                ./images/mobile/milkshakes-mob.jpg    1x,
+                ./images/mobile/milkshakes-mob@2x.jpg 2x
+              "
+              media="(max-width:767px)" />
+            <img
+              class="products__img"
+              srcset="./images/desktop/milkshakes-dt.jpg"
+              src="./images/desktop/milkshakes-dt.jpg"
+              alt="ice cream"
+          /></picture>
+          <div class="products__bg milkshakes">
+            <h3 class="products__name">milkshakes</h3>
+            <p class="products__text">
+              Sweet drinks based on milk and ice cream, supplemented with
+              syrups, fruits, berries and other sweets of your choice
+            </p>
+          </div>
+        </ul>
+      </li>
+    </div>
   </div>
 </section>
