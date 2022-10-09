@@ -27,7 +27,11 @@ ul {
         padding-right: 20px;
     }
 }
-
+.products__set{
+    @media screen and(min-width:768px) {
+        display: flex;
+    }
+}
 .products__poto {
     z-index: 2;
     position: absolute;
@@ -93,14 +97,17 @@ ul {
 
     display: block;
     text-align: center;
-    margin-bottom: 164px;
+    padding-top: 164px;
+    &:last-child{padding-bottom: 40px;}
+    
+  }
 
 
-}
 
-last-child {
-    margin-bottom: 60px;
-}
+
+
+
+
 
 .products__item {
     padding-left: 0px;
@@ -124,7 +131,47 @@ last-child {
 }
 
 .open-mobile-menu-products {
-    color: #131313;
+   fill:  #131313;
+
+}
+.products__bt-open-menu{
     width: 40px;
-    border: 2px solid rgba(19, 19, 19, 1)
+   
+    
+}
+.products__list-ice-cream{
+
+    
+    @media screen and( max-width:767px){
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/src/images/mobile/products-bg1-mob.jpg);
+        }
+    }
+.products__list-ice-coffee{
+    @media screen and(max-width:767px) {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+            background-image: url(/src/images/mobile/products-bg2.-mob.jpg);
+        }
+}
+.products__list-milkshakes{
+    @media screen and(max-width:767px) {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/src/images/mobile/products-bg3-mob.jpg);
+    }
+}
+.products{
+    @media screen and(min-width:768px) {
+        background-image: url(/src/images/tablet/products-bg-tab.jpg);
+        
+    }
+    @media screen and(min-width:1200px) {
+         background-image: url(/src/images/desktop/products-bg-dt.jpg);
+        
+    }
 }
