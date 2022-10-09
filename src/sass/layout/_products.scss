@@ -8,19 +8,17 @@ ul {
 
 .products__container {
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+   
     width: 100%;
 
-    @media screen and(min-width:1200px) {
-        width: 1200px;
-    }
-
+ 
     @media screen and(min-width:768px) {
         width: 768px;
 
     }
-
+   @media screen and(min-width:1200px) {
+       width: 1200px;
+   }
     @media screen and(max-width: 767px) {
         max-width: 480px;
         padding-left: 20px;
@@ -39,6 +37,7 @@ ul {
     display: block;
     text-align: center;
     padding-top: 60px;
+    padding-bottom: 12px;
     color: #131313;
 
 
@@ -46,7 +45,9 @@ ul {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.22;
-
+@media screen and(min-width:1200px){
+    font-size: 30px;
+}
 
 }
 
@@ -61,21 +62,46 @@ ul {
     font-weight: 400;
     line-height: 1.27;
     text-align: center;
-
-
+@media screen and(min-width:1200px) {
+    padding-bottom: 303px;
+    font-size: 36px;
 }
 
+}
+.products__set{
+
+@media screen and (min-width:768px){
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+
+}
 .products__bg {
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 24px;
+@media screen and(max-width:767px) {
 
     width: 280px;
     height: 420px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    border-radius: 24px;
 }
+@media screen and(min-width:768px) {
+
+    width: 224px;
+    height: 428px;
+}
+@media screen and(min-width:1200px) {
+
+    width: 370px;
+    height: 536px;
+}
+    }
+
+
+   
 
 .ice-cream.products__bg {
     background-color: #AEC6A5;
@@ -94,6 +120,10 @@ ul {
     display: block;
     text-align: center;
     margin-bottom: 164px;
+@media screen and(min-width:768px) {
+
+    
+}
 
 
 }
@@ -109,11 +139,48 @@ last-child {
 .products__name {
     padding-top: 123px;
     padding-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.22;
+
+    text-align: center;
+
+@media screen and(min-width:768px) {
+    padding-top: 108px;
+    padding-bottom: 40px;
+
+
+    
+}    
+@media screen and(min-width:1200px) {
+    padding-top: 166px;
+    padding-bottom: 65px;
+
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.23;
+    text-align: center;
+}
 }
 
 .products__text {
     padding-left: 40px;
     padding-right: 40px;
+   
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.78;
+    text-align: center;
+
+@media screen and(min-width:1200px) {
+    font-size: 16px;
+    line-height: 28px;
+}
+     
 }
 
 .products__img {
@@ -124,6 +191,8 @@ last-child {
 }
 
 .open-mobile-menu-products {
+
+
     color: #131313;
     width: 40px;
     border: 2px solid rgba(19, 19, 19, 1)
