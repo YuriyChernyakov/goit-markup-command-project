@@ -1,0 +1,130 @@
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.products__container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+
+    @media screen and(min-width:1200px) {
+        width: 1200px;
+    }
+
+    @media screen and(min-width:768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(max-width: 767px) {
+        max-width: 480px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.products__poto {
+    z-index: 2;
+    position: absolute;
+    background: transparent;
+
+}
+
+.products__peculiarity {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+    color: #131313;
+
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.22;
+
+
+}
+
+.products__title {
+
+    padding-bottom: 148px;
+
+    color: #131313;
+    text-transform: uppercase;
+    font-family: Seymour One;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.27;
+    text-align: center;
+
+
+}
+
+.products__bg {
+    position: relative;
+
+    width: 280px;
+    height: 420px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 24px;
+}
+
+.ice-cream.products__bg {
+    background-color: #AEC6A5;
+}
+
+.ice-coffee.products__bg {
+    background-color: #EFD478;
+}
+
+.milkshakes.products__bg {
+    background-color: #D6936D;
+}
+
+.products__list {
+
+    display: block;
+    text-align: center;
+    margin-bottom: 164px;
+
+
+}
+
+last-child {
+    margin-bottom: 60px;
+}
+
+.products__item {
+    padding-left: 0px;
+}
+
+.products__name {
+    padding-top: 123px;
+    padding-bottom: 40px;
+}
+
+.products__text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.products__img {
+    border-radius: 50%;
+    box-shadow: 0 0 11px 0 rgba(213, 117, 63, 70%);
+
+    transform: translate(-50%, -50%);
+}
+
+.open-mobile-menu-products {
+    color: #131313;
+    width: 40px;
+    border: 2px solid rgba(19, 19, 19, 1)
+}
