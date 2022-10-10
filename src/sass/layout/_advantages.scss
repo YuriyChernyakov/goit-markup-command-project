@@ -1,6 +1,5 @@
 .advantages {
     
-
     @media screen and (min-width: 768px) {
         
     }
@@ -129,25 +128,15 @@
         margin-bottom: 40px;
     }
 
-
-    &-cow {
-     
-    }
     &-cow::before {
         content: "";
         width: 36px;
         height: 36px;
     }
-    &-weight{
- 
-    }
     &-weight::before {
         content: "";
         width: 36px;
         height: 36px;
-    }
-    &-ice-crema {
- 
     }
     &-ice-crema::before {
         content: "";
