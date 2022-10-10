@@ -194,7 +194,8 @@
 
     .contacts-section__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 16px;
 
         //    margin-top: -346px;
         margin-bottom: 68px;
@@ -202,7 +203,8 @@
 
     .contact-section__buttons-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 16px;
 
         padding-left: 148px;
         padding-right: 148px;
