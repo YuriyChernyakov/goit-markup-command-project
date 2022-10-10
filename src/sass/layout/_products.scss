@@ -185,10 +185,11 @@ last-child {
 
 .products__img {
     border-radius: 50%;
-    box-shadow: 0 0 11px 0 rgba(213, 117, 63, 70%);
-
     transform: translate(-50%, -50%);
 }
+.img-ice-cream {box-shadow: 0px 17px 0px 0px rgba(174, 198, 165, 1),0px 8px 30px 0px rgba(0, 0, 0, 0.25);}
+.img-ice-coffee{box-shadow: 0px 17px 0px 0px rgba(239, 212, 120, 1),0px 8px 30px 0px rgba(0, 0, 0, 0.25);}
+.img-milkshakes{box-shadow: 0px 17px 0px 0px rgba(214, 147, 109, 1), 0px 8px 30px 0px rgba(0, 0, 0, 0.25);}
 
 .open-mobile-menu-products {
 
@@ -196,4 +197,13 @@ last-child {
     color: #131313;
     width: 40px;
     border: 2px solid rgba(19, 19, 19, 1)
+}
+
+.products__modal-container{
+    max-width: 280px;
+    height: 990px;
+
+    margin-left: auto;
+    margin-right: auto;
+
 }
