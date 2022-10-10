@@ -122,9 +122,10 @@ ul {
     display: block;
     text-align: center;
     margin-bottom: 164px;
-:last-child{
-    margin-bottom: 60px;
 }
+
+.products__list:last-child {
+    margin-bottom: 60px;
 }
 
 .products__item {
