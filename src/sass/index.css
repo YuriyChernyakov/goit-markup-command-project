@@ -58,7 +58,6 @@ ol {
 .container {
   width: 100%;
 }
-
 @media screen and (min-width: 480px) {
   .container {
     width: 320px;
@@ -80,6 +79,7 @@ ol {
     margin-right: auto;
   }
 }
+
 .modal-window {
   position: absolute;
   height: 225px;
