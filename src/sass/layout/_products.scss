@@ -45,16 +45,17 @@ ul {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.22;
+
+}
 @media screen and(min-width:1200px){
+.products__peculiarity{
     font-size: 30px;
 }
-
 }
 
 .products__title {
 
     padding-bottom: 148px;
-
     color: #131313;
     text-transform: uppercase;
     font-family: Seymour One;
@@ -62,20 +63,21 @@ ul {
     font-weight: 400;
     line-height: 1.27;
     text-align: center;
+}
 @media screen and(min-width:1200px) {
+.products__title{
     padding-bottom: 303px;
     font-size: 36px;
-}
 
 }
-.products__set{
+}
+
 
 @media screen and (min-width:768px){
+.products__set{
     display: flex;
     justify-content: space-evenly;
 }
-    
-
 }
 .products__bg {
     position: relative;
@@ -120,12 +122,6 @@ ul {
     display: block;
     text-align: center;
     margin-bottom: 164px;
-@media screen and(min-width:768px) {
-
-    
-}
-
-
 }
 
 last-child {
