@@ -1,9 +1,58 @@
 .advantages {
-    padding: 42px 61px 60px 61px;
-    background-color: #84A178;
+    
+
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    &_container {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+        background-color: var(--background-gre);
+    
+         @media screen and (min-width: 480px) {
+            padding: 21px 45px 36px;
+            width: 320px;
+        }
+         @media screen and (min-width: 768px) {
+            padding: 24px 76px 40px;
+            width: 768px;
+        }
+
+        @media screen and (min-width: 1200px){
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
 
     &_list {
-    margin-bottom: -30px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: -24px;
+
+        @media screen and (min-width: 767px) {
+            display: flex;
+            margin-left: -80px;
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            margin-left: -32px;
+        }
+    }
+    &_item {
+        margin-bottom: 24px;
+        @media screen and (min-width: 768px) {
+            flex-basis: calc((100% / 3 - 80px));
+            margin-left: 80px;
+            margin-bottom: 0;
+          }
+        @media screen and(min-width: 1200px) {
+            flex-basis: calc(100% / 3 - 32px);
+            margin-left: 32px;
+        }
     }
 
     &_content {
@@ -19,6 +68,13 @@
         text-transform: uppercase;
     
         color: #FCFCFC;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 16px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 1.23;
+        }
     }
     &_text {
         font-family: 'Montserrat';
@@ -29,10 +85,17 @@
         text-align: center;
     
         color: #FCFCFC; 
-        margin-bottom: 25px;
-    
+        margin-bottom: 24px;
+        
+        @media screen and (min-width: 768px) {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 174%;
+        }
     }
 }
+
 .title-hidden {
     position: absolute;
     width: 1px;
@@ -57,28 +120,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 18px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 32px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+
 
     &-cow {
-        margin-bottom: 16px;
+     
     }
     &-cow::before {
-        content: "/src/images/cow.png";
+        content: "";
         width: 36px;
         height: 36px;
     }
     &-weight{
-        margin-bottom: 16px;
+ 
     }
     &-weight::before {
-        content: "/src/images/weight.png";
+        content: "";
         width: 36px;
         height: 36px;
     }
     &-ice-crema {
-        margin-bottom: 22px;
+ 
     }
     &-ice-crema::before {
-        content: "/src/images/ice_crema.png";
+        content: "";
         width: 36px;
         height: 36px;
         display: block;
