@@ -1,16 +1,13 @@
 .advantages {
-    
-    @media screen and (min-width: 768px) {
-        
-    }
+    background-color: var(--background-gre);
 
     &_container {
         width: 100%;
         padding-left: 16px;
         padding-right: 16px;
         margin: 0 auto;
-        background-color: var(--background-gre);
-    
+        
+
          @media screen and (min-width: 480px) {
             padding: 21px 45px 36px;
             width: 320px;
