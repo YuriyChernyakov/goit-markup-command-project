@@ -1,0 +1,2 @@
+var slideIndex=1;function plusSlides(e){showSlides(slideIndex+=e)}function currentSlide(e){showSlides(slideIndex=e)}function showSlides(e){var s,d=document.getElementsByClassName("iceCreamSlides");for(e>d.length&&(slideIndex=1),e<1&&(slideIndex=d.length),s=0;s<d.length;s++)d[s].style.display="none";d[slideIndex-1].style.display="block",dots[slideIndex-1].className+=" active"}showSlides(slideIndex);
+//# sourceMappingURL=index.272d85f4.js.map
