@@ -1,14 +1,16 @@
-.contacts-section__container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 38px;
-
+.contacts-section {
     background-color: var(--background-gre);
 }
 
+.contacts-section__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 38px;
+}
+
 .contacts-section__list{
-//    margin-top: -346px;
+    // margin-top: -346px;
+    margin-bottom: 32px;
 }  
 
 .contact-card{
@@ -19,7 +21,7 @@
     border-radius: 24px;
     
     &:last-child{
-        margin-bottom: 32px;
+        margin-bottom: 0;
     }
 }
 
@@ -174,13 +176,22 @@
         color: var(--txt-color-blck);
         cursor: not-allowed;
     }
+    &.button__icon:focus{
+        background: var(--txt-color-btnwhi);
+    }
+    &.button__icon:disabled{
+        background: var(--txt-color-blck);
+    }
+}
+
+.button__icon{
+    margin-left: 10px;
+    background: var(--txt-color-blck);
 }
 
 @media screen and (min-width: 480px) {
     .contacts-section__container {
         width: 480px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
@@ -196,8 +207,8 @@
         display: flex;
         justify-content: space-between;
 
-        //    margin-top: -346px;
-        margin-bottom: 68px;
+        //    margin-top: -304px;
+        margin-bottom: 60px;
     }
 
     .contact-section__buttons-container{
@@ -281,6 +292,44 @@
         padding-right: 16px;
         padding-bottom: 120px;
     }
-
     
+    .contacts-section__list {
+        //    margin-top: -96px;
+        margin-bottom: 64px;
+    }
+
+    .contact-section__buttons-container{
+        padding-left: 380px;
+        padding-right: 380px;
+    }
+
+    .contact-card{
+        width: 368px;
+    }
+
+    .city-address__name {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .city-address__link {
+        max-width: 260px;
+        font-size: 16px;
+    }
+
+    .schedule__working-days{
+        font-size: 16px;
+    }
+
+    .schedule__working-time{
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .contact-list__link {
+        font-size: 16px;
+    }
+
+
+
 }
