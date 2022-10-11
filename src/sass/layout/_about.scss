@@ -176,7 +176,7 @@
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 0;
-    width: 164px;
+   
     background: var(--button-color-yel);
     border-radius: 10px;
     border-style: none;
@@ -196,4 +196,15 @@
 .about-button:after {
     content: url(#);
     padding-left: 5px;
+}
+@media screen and (min-width:768px){
+   .about-button{
+    display: inline-block;
+    margin-left: 35px;
+   }
+}
+@media screen and (min-width:1200px) {
+    .about-button {
+    margin-left: 100px;
+    }
 }
