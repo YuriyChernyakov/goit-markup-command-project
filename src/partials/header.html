@@ -1,25 +1,27 @@
-<header class="header">
-    <div class="container">
-        <a href="#" class="header-logo "><svg class="contacts__icon" width="28" height="55">
-            <use href="#"></use></svg></a>
+<header class="header" id="header">
+    <div class="container header__container">
+        <a href="#" class="logo-header "><img src="/src/images/header/logo.png" alt="logo" class="logo-header__icon"></a>
         <ul class="header__list list">
-           <li class="header__item"><a href="#" class="header__link link"></a>Home</li>
-           <li class="header__item"><a href="#" class="header__link link"></a>How it’s made?</li>
-           <li class="header__item"><a href="#" class="header__link link"></a>Our products</li>
-           <li class="header__item"><a href="#" class="header__link link"></a>Contact</li>
+           <li class="header__item"><a href="#header" class="header__link link"></a>Home</li>
+           <li class="header__item"><a href="#adout" class="header__link link"></a>How it’s made?</li>
+           <li class="header__item"><a href="#products" class="header__link link"></a>Our products</li>
+           <li class="header__item"><a href="#contact" class="header__link link"></a>Contact</li>
         </ul>
-        <button type="button" class="btn__header">Buy now</button>
+        <button type="button" class="btn__header button second-type__button">Buy now<svg class="logo__mobile-menu" width="40" height="37">
+          <use href="#"></use></svg></button>
     <!-- mobile btn -->
     <button class="mob-btn__open " type="button">
-        <svg class="btn-mob__icon" width="40" height="40">
-          <use href="#"></use></svg>
+        <svg class="btn-header__icon" width="5" height="8">
+          <use href="/src/images/symbol-defs.svg#icon-close"></use></svg>
       </button>
     <!-- mobile-menu -->
-    <div class="mobile-menu container" id="mobile-menu">
+    <!-- <div class="mobile-menu container" id="mobile-menu">
+      <div class="mobile-menu__box">
+      <svg class="logo__mobile-menu" width="40" height="37">
+        <use href="#"></use></svg>
         <button class="btn-mobile__close " type="button">
-          <svg class="mobile-menu__icon" width="19" height="19">
-            <use href="#"></use></svg>
-        </button>
+          <svg class="mobile-menu__icon" width="19" height="19"><use href="#"></use></svg>
+        </button></div>
         <div class="menu-container">
           <nav>
             <ul class="mobile-menu__list list">
@@ -27,23 +29,18 @@
                 <a class="link mobile-menu__link" href="#">Home</a>
               </li>
               <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" 
-                href="#"
-                  >How it’s made?</a
-                >
+                <a class="link mobile-menu__link" href="#">How it’s made?</a>
               </li>
               <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" 
-                href="">Our products</a>
+                <a class="link mobile-menu__link" href="">Our products</a>
               </li>
               <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" 
-                href="">Contact</a>
+                <a class="link mobile-menu__link" href="">Contact</a>
               </li>
             </ul>
           </nav>
         </div>
           <button type="button" class="btn__header">Buy now</button>
-    </div>
+    </div> -->
     </div>
 </header>
