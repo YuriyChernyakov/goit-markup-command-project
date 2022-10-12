@@ -66,7 +66,7 @@
 }
 @media screen and (min-width:1200px){
     .about-title {
-            margin-bottom: 82px;
+            margin-bottom: 121px;
             font-size: 36px;
             line-height: 1.25;
         }
@@ -105,7 +105,8 @@ position: relative;
         top: 0px;
         right: 684px;
         bottom: 30px;
-        left: 16px;
+        left: 0px;
+        box-shadow: rgb(248 210 78 / 70%) 8px -39px;
     }
 }
 
@@ -118,7 +119,8 @@ position: relative;
 
 @media screen and (min-width:1200px) {
     .about-block-info {
-        margin-left: 616px;
+        margin-bottom: 122px;
+        margin-left: 600px;
     }
 }
 .about-paragraph {
@@ -143,12 +145,13 @@ position: relative;
 }
 @media screen and (min-width:1200px) {
     .about-paragraph {
-        padding-left: 100px;
+         padding-left: 0px;
     }
 
 }
 
 .about-paragraph__first {
+    padding-top: 51px;
     padding-bottom: 4px;
     line-height: 1.75;
 }
@@ -235,6 +238,6 @@ position: relative;
 }
 @media screen and (min-width:1200px) {
     .about-button {
-    margin-left: 100px;
+    margin-left: 0px;
     }
 }
