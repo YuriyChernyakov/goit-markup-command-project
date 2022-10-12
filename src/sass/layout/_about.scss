@@ -1,6 +1,9 @@
+.about{
+     background-color: var(--background-gre);
+}
 .about__container {
     padding: 60px 21px 21px;
-    background-color: var(--background-gre);
+   
 }
 @media screen and (min-width:768px) {
     .about__container{
@@ -86,7 +89,7 @@ position: relative;
 }}
 .about-image {
     border-radius: 50%;
-    box-shadow: 0 -21px 0 0 rgba(248, 210, 78, 0.7)
+    box-shadow: 0 -21px 0 0 rgba(248, 210, 78, 0.7);
 }
 @media screen and (min-width:768px) {
     .about-image {
@@ -96,12 +99,10 @@ position: relative;
         bottom: 24px;
         left: 0px;
         box-shadow: rgb(248 210 78 / 70%) 0px -26px;
-    }
 }
-
+}
 @media screen and (min-width:1200px) {
     .about-image {
-        position: absolute;
         top: 0px;
         right: 684px;
         bottom: 30px;
@@ -158,6 +159,7 @@ position: relative;
 @media screen and (min-width:768px) {
 .about-paragraph__first {
         padding-bottom: 8px;
+        padding-top: 0;
     }
 }
 @media screen and (min-width:1200px) {
