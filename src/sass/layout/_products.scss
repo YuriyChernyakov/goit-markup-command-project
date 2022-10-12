@@ -176,5 +176,8 @@ last-child {
 
     margin-left: auto;
     margin-right: auto;
-
+}
+.ingredients__item{
+    display: flex;
+    justify-content: space-between;
 }
