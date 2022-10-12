@@ -1,0 +1,147 @@
+.advantages {
+    background-color: var(--background-gre);
+
+    &_container {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0 auto;
+
+    @media screen and (max-width: 767px) {
+            padding: 21px 45px 36px;
+        }
+    @media screen and (min-width: 768px) {
+            padding: 24px 76px 40px;
+        }
+
+        @media screen and (min-width: 1200px){
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+    &_list {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: -24px;
+
+    @media screen and (min-width: 767px) {
+            display: flex;
+            margin-left: -80px;
+        }
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            margin-left: -32px;
+        }
+    }
+    &_item {
+        margin-bottom: 24px;
+    @media screen and (min-width: 768px) {
+            flex-basis: calc((100% / 3 - 80px));
+            margin-left: 80px;
+            margin-bottom: 0;
+          }
+    @media screen and(min-width: 1200px) {
+            flex-basis: calc(100% / 3 - 32px);
+            margin-left: 32px;
+        }
+    }
+
+    &_content {
+        display: block;
+        margin-bottom: 18px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+    
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    
+        color: #FCFCFC;
+    @media screen and (min-width: 768px) {
+            margin-bottom: 16px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 1.23;
+        }
+    }
+    &_text {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+    
+        text-align: center;
+    
+        color: #FCFCFC; 
+        margin-bottom: 24px;
+        
+    @media screen and (min-width: 768px) {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        line-height: 174%;
+        }
+    @media screen and (min-width: 1200px) {
+        ont-family: 'Montserrat';
+        font-size: 16px;
+        line-height: 176%;
+        text-align: center;
+        letter-spacing: 0.02em;
+    }
+
+
+    }
+}
+
+.title-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F8D24E;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 32px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+
+    &-cow::before {
+        content: '';
+        
+    }
+    &-weight::before {
+        content: '';
+        
+    }
+    &-ice-cream::before {
+        content: '';
+        
+    }
+}
+
+
