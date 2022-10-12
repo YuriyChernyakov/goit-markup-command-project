@@ -1,156 +1,156 @@
 .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    padding: 12px 34px;
-    cursor: pointer;
+  padding: 12px 34px;
+  cursor: pointer;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.29;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
 
-    &:disabled {
-        cursor: not-allowed;
-    }
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 .first-type__button {
-    height: 42px;
+  height: 42px;
 
-    background: transparent;
-    border: 2px solid var(--button-color-yel);
-    border-radius: 10px;
+  background: transparent;
+  border: 2px solid var(--button-color-yel);
+  border-radius: 10px;
 
-    &:hover {
-        border: 2px solid var(--button-color-green);
-    }
-    
-    &:focus {
-        color: var(--txt-color-btnwhi);
-        border: 2px solid var(--button-color-green);
-        outline: none;
-    }
-    
-    &:disabled {
-        border: 2px solid var(--button-color-gre);
-        color: var(--txt-color-blck);
-    }
+  &:hover {
+    border: 2px solid var(--button-color-green);
+  }
+
+  &:focus {
+    color: var(--txt-color-btnwhi);
+    border: 2px solid var(--button-color-green);
+    outline: none;
+  }
+
+  &:disabled {
+    border: 2px solid var(--button-color-gre);
+    color: var(--txt-color-blck);
+  }
 }
 
 .second-type__button {
-    height: 42px;
+  height: 42px;
 
-    background: var(--button-color-yel);
-    border: none;
-    border-radius: 10px;
+  background: var(--button-color-yel);
+  border: none;
+  border-radius: 10px;
 
-    &:hover {
-        background: var(--button-color-green);
-    }
+  &:hover {
+    background: var(--button-color-green);
+  }
 
-    &:focus {
-        background: var(--button-color-green);
-        color: var(--txt-color-btnwhi);
-        outline: var(--button-color-green);
-    }
+  &:focus {
+    background: var(--button-color-green);
+    color: var(--txt-color-btnwhi);
+    outline: var(--button-color-green);
+  }
 
-    &:disabled {
-        background: var(--button-color-gre);
-        color: var(--txt-color-blck);
-    }
-    
-    &.button__icon:focus {
-        background: var(--txt-color-btnwhi);
-        // after adding svg-icon  you have to change 'background' to 'fill'
-    }
+  &:disabled {
+    background: var(--button-color-gre);
+    color: var(--txt-color-blck);
+  }
 
-    &.button__icon:disabled {
-        background: var(--txt-color-blck);
-        // after adding svg-icon  you have to change 'background' to 'fill'
-    }
+  &.button__icon:focus {
+    background: var(--txt-color-btnwhi);
+    // after adding svg-icon  you have to change 'background' to 'fill'
+  }
+
+  &.button__icon:disabled {
+    background: var(--txt-color-blck);
+    // after adding svg-icon  you have to change 'background' to 'fill'
+  }
 }
 
 .third-type__button {
-    height: 40px;
+  height: 40px;
 
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 
-    color: var(--button-color-yel);
-    text-decoration: underline;
+  color: var(--button-color-yel);
+  text-decoration: underline;
 
-    &:hover {
-        color: var(--button-color-green);
-    }
+  &:hover {
+    color: var(--button-color-green);
+  }
 
-    &:focus {
-        color: var(--txt-color-btnwhi);
-    }
+  &:focus {
+    color: var(--txt-color-btnwhi);
+  }
 
-    &:disabled {
-        color: var(--button-color-gre);
-    }
+  &:disabled {
+    color: var(--button-color-gre);
+  }
 }
 
 .fourth-type__button {
-    height: 42px;
+  height: 42px;
 
-    background-color: transparent;
-    border: 2px solid var(--button-color-yel);
-    border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid var(--button-color-yel);
+  border-radius: 10px;
 
-    &:hover {
-        border: 2px solid var(--button-color-green);
-    }
+  &:hover {
+    border: 2px solid var(--button-color-green);
+  }
 
-    &:focus {
-        color: var(--txt-color-btnwhi);
-        border: 2px solid var(--button-color-green);
-        outline: none;
-    }
+  &:focus {
+    color: var(--txt-color-btnwhi);
+    border: 2px solid var(--button-color-green);
+    outline: none;
+  }
 
-    &:disabled {
-        border: 2px solid var(--button-color-gre);
-        color: var(--txt-color-blck);
-    }
+  &:disabled {
+    border: 2px solid var(--button-color-gre);
+    color: var(--txt-color-blck);
+  }
 
-    &.button__icon:focus {
-        background: var(--txt-color-btnwhi);
-        // after adding svg-icon  you have to change 'background' to 'fill'
-    }
+  &.button__icon:focus {
+    background: var(--txt-color-btnwhi);
+    // after adding svg-icon  you have to change 'background' to 'fill'
+  }
 
-    &.button__icon:disabled {
-        background: var(--txt-color-blck);
-        // after adding svg-icon  you have to change 'background' to 'fill'
-    }
+  &.button__icon:disabled {
+    background: var(--txt-color-blck);
+    // after adding svg-icon  you have to change 'background' to 'fill'
+  }
 }
 
 .button__icon {
-    margin-left: 12px;
-    background: var(--txt-color-blck);
-    // after adding svg-icon  you have to change 'background' to 'fill'
+  margin-left: 12px;
+  background: var(--txt-color-blck);
+  // after adding svg-icon  you have to change 'background' to 'fill'
 }
 
-@media screen and (max-width: 1199px){
-    .first-type__button {
-        height: 24px;
+@media screen and (max-width: 1199px) {
+  .first-type__button {
+    height: 24px;
 
-        border-radius: 8px;
-        padding: 8px 12px;
+    border-radius: 8px;
+    padding: 8px 12px;
 
-        font-size: 8px;
-        line-height: 1.25;
-    }
+    font-size: 8px;
+    line-height: 1.25;
+  }
 
-    .third-type__button {
-        height: 24px;
+  .third-type__button {
+    height: 24px;
 
-        padding: 6px 10px;
+    padding: 6px 10px;
 
-        font-size: 8px;
-        line-height: 1.25;
-    }
+    font-size: 8px;
+    line-height: 1.25;
+  }
 }

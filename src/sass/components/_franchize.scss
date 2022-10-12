@@ -1,0 +1,43 @@
+.franchise__header {
+  display: block;
+  font-family: 'Seymour One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  align-items: center;
+  text-align: center;
+  color: var(--txt-color-blck);
+  margin-bottom: 24px;
+}
+.franchise__page {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--txt-color-blck);
+  margin-bottom: 32px;
+}
+.franchise__input,
+.franchise__comm {
+  width: 362px;
+  height: 42px;
+  border: 1px solid rgba(132, 161, 120, 1);
+  border-radius: 10px;
+  background-color: rgba($color: #f8d24e, $alpha: 0.1);
+}
+.franchise__comm {
+  height: 84px;
+}
+.franchise__label {
+  margin-bottom: 16px;
+}
+.franchise__label:nth-child(4) {
+  margin-bottom: 32px;
+}
+.franchise__form {
+  display: flex;
+  flex-direction: column;
+}
+.btn-size {
+  width: 121px;
+}
