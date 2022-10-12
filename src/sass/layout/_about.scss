@@ -213,22 +213,13 @@ position: relative;
     background: var(--button-color-yel);
     border-radius: 10px;
     border-style: none;
-    cursor: pointer;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.29;
-    
-    align-items: center;
-        color: #131313;
+    color: var(--txt-color-blck);
     text-align: center;
 }
 // images for button
 .about-button:after {
-    content: url(#);
-    padding-left: 5px;
+    content: url(../images/button-direct.svg);
+    padding-left: 9px;
 }
 @media screen and (min-width:768px){
    .about-button{
