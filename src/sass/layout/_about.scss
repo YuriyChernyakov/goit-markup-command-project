@@ -59,7 +59,7 @@
 }
 @media screen and (min-width:768px) {
     .about-title{
-    margin-bottom: 72px;
+    margin-bottom: 79px;
     font-size: 34px;
     letter-spacing: 0.06em;
     }
@@ -72,28 +72,55 @@
         }
     
 }
-
+.about-title__text{
+    display: block;
+}
 @media screen and (min-width:768px) {
-    .about-block {
-        display: flex;
+    .about-title__text {
+        display: inline;
+    }
+}
+@media screen and (min-width:768px) {
+.about-block{
+position: relative;
+}}
+.about-image {
+    border-radius: 50%;
+    box-shadow: 0 -21px 0 0 rgba(248, 210, 78, 0.7)
+}
+@media screen and (min-width:768px) {
+    .about-image {
+        position: absolute;
+        top: 19px;
+        right: 400px;
+        bottom: 24px;
+        left: 0px;
+        box-shadow: rgb(248 210 78 / 70%) 0px -26px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .about-image {
+        position: absolute;
+        top: 0px;
+        right: 684px;
+        bottom: 30px;
+        left: 16px;
     }
 }
 
 @media screen and (min-width:768px) {
     .about-block-info {
-        display: block;
+        margin-left: 336px;
+        margin-bottom: 9px;
     }
 }
-.about-image {
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    margin-top: 22px;
-    background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), var(--background-img);
-    box-shadow: 0 -21px 0 0 rgba(248, 210, 78, 0.7)
-}
 
+@media screen and (min-width:1200px) {
+    .about-block-info {
+        margin-left: 616px;
+    }
+}
 .about-paragraph {
     padding-left: 29px;
     padding-right: 29px;
@@ -109,6 +136,7 @@
 @media screen and (min-width:768px) {
     .about-paragraph{
      padding-left: 32px;
+    padding-right: 0;
      text-align: left;
     }
 
@@ -156,9 +184,9 @@
 }
 @media screen and (min-width:768px) {
 .about-paragraph__third {
-        display: flex;
+        display: inline-block;
         justify-content: left;
-        line-height: 1.77;
+        line-height: 1.92;
     }
 }
 @media screen and (min-width:1200px) {
@@ -201,6 +229,8 @@
    .about-button{
     display: inline-block;
     margin-left: 35px;
+    margin-top: 48px;
+    margin-bottom: 2px;
    }
 }
 @media screen and (min-width:1200px) {
