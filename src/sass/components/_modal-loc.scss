@@ -12,6 +12,12 @@
 .modal-window__franchise {
   height: 330px;
 }
+.is-hiddden {
+  opacity: 0.2;
+  visibility: hidden;
+  transform: translate(0%, 100%);
+  pointer-events: none;
+}
 .modal-window__close-btn {
   display: flex;
   justify-content: center;
@@ -19,7 +25,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-8px, 8px);
+  transform: translate(-20px, 20px);
 }
 .modal-window__close-icon {
   transition-duration: 250ms;
