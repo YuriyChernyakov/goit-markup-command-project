@@ -237,6 +237,12 @@ last-child {
 }
 
 .products__modal-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-left: auto;
+margin-right: auto;
     @media screen and(min-width:768px) {
         width: 568px;
 
@@ -246,8 +252,6 @@ last-child {
         max-width: 280px;
     }
 
-    margin-left: auto;
-    margin-right: auto;
 
 }
 .modal__products-list{
@@ -358,6 +362,7 @@ font-family: Montserrat;
 
 }
 .products__modal{
+    position: absolute;
 
     width: 280px;
     height: 990px;
