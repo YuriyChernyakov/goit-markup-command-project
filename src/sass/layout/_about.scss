@@ -88,6 +88,7 @@
 position: relative;
 }}
 .about-image {
+    margin: auto;
     border-radius: 50%;
     box-shadow: 0 -21px 0 0 rgba(248, 210, 78, 0.7);
 }
@@ -103,7 +104,7 @@ position: relative;
 }
 @media screen and (min-width:1200px) {
     .about-image {
-        top: 0px;
+        top: 130px;
         right: 684px;
         bottom: 30px;
         left: 0px;
@@ -202,28 +203,20 @@ position: relative;
 }
 .about-button{
     width: 164px;
-    height: 42px;
     padding: 12px;
-    display: block;
+  
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 0;
    
-    background: var(--button-color-yel);
-    border-radius: 10px;
     border-style: none;
     color: var(--txt-color-blck);
     text-align: center;
 }
-// images for button
-.about-button:after {
-    content: url(../images/button-direct.svg);
-    padding-left: 9px;
-}
 @media screen and (min-width:768px){
    .about-button{
-    display: inline-block;
+   
     margin-left: 35px;
     margin-top: 48px;
     margin-bottom: 2px;
@@ -234,7 +227,6 @@ position: relative;
     margin-left: 0px;
     }
 }
-//------------------------------------------- style for modal-window
 .about-modal {
     position: absolute;
     top: 50%;
