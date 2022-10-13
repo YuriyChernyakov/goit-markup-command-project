@@ -81,11 +81,17 @@
         type="image/webp"
       />
       <source
-        srcset="./images/header/dots-desk_1x.png 1x"
+        srcset="
+          ./images/header/dots-desk_1x.png 1x,
+          ./images/header/dots-desk_2x.png 2x
+        "
         media="(min-width:1200px)"
       />
       <source
-        srcset="./images/header/dots-desk_1x.webp 1x"
+        srcset="
+          ./images/header/dots-desk_1x.webp 1x,
+          ./images/header/dots-desk_2x.webp 2x
+        "
         media="(min-width:1200px)"
         type="image/webp"
       />
@@ -126,11 +132,12 @@
       </p>
       <button class="arrow"></button>
     </div>
+
     <ul class="hero__stat">
       <li class="hero__number">16</li>
-      <span class="hero__number--descr">cafes</span>
+      <li class="hero__number--descr">cafes</li>
       <li class="hero__number hero__number--margin">23</li>
-      <span class="hero__number--descr">food trucks</span>
+      <li class="hero__number--descr">food trucks</li>
     </ul>
   </div>
 </section>
