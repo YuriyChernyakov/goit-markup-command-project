@@ -237,12 +237,14 @@ last-child {
 }
 
 .products__modal-container {
-        @media screen and(min-width:768px) {
-                width: 568px;
-                
-            }
-         @media screen and(max-width:767px){max-width: 280px;}
-   
+    @media screen and(min-width:768px) {
+        width: 568px;
+
+    }
+
+    @media screen and(max-width:767px) {
+        max-width: 280px;
+    }
 
     margin-left: auto;
     margin-right: auto;
@@ -293,16 +295,19 @@ font-family: Montserrat;
     text-align: center;
 }
 
-.products__modal-container-title {
+.container-title {
     padding-bottom: 22px;
     font-family: Seymour One;
+
     font-size: 20px;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0em;
     text-align: center;
 }
-
+.products__modal-container-title{
+    text-align: center;
+}
 .products__modal-list-ingredients {
     padding-bottom: 24px;
     display: block;
@@ -316,14 +321,13 @@ font-family: Montserrat;
 .modal__products-item {
     display: flex;
     justify-content: space-around;
- @media screen and(min-width:768px) {
+
+    @media screen and(min-width:768px) {
         gap: 20px;
         justify-content: center;
-        }
-        
     }
 
-
+}
 
 .modal__products-item-set {
     display: flex;
@@ -331,11 +335,6 @@ font-family: Montserrat;
 }
 
 .ingredients__list {
-@media screen and(min-width:768px) {
-        padding-left: 40px;
-        padding-right: 40px;
-
-    }
     display: flex;
     flex-direction: column;
     padding-bottom: 48px;
@@ -376,27 +375,29 @@ font-family: Montserrat;
 
 
 }
-.pr-mod__input{
+.pr-mod__input {
     border-radius: 10px;
     width: 240px;
     height: 42px;
     border: 1px solid rgba(132, 161, 120, 1);
+
     @media screen and (min-width:768px) {
         width: 368px;
         height: 42px;
-        
+
     }
 }
-textarea{
+textarea {
     width: 240px;
     min-height: 84px;
     resize: none;
     border-radius: 10px;
+
     @media screen and (min-width:768px) {
-            width: 368px;
-            height: 42px;
-    
-        }
+        width: 368px;
+        height: 42px;
+
+    }
 }
 .prod__form{
     padding-bottom: 32px;
