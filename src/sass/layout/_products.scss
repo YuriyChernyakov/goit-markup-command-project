@@ -11,25 +11,27 @@
     }
   
 }
-.products__container{
+.products__container-size{
     margin-left: auto;
-    margin-right: auto; 
-    padding-right: 32px;
-    padding-left: 32px;
-    width: 768px;
-    height: 862px;
+    margin-right: auto;
+}
+// .products__container{
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 768px;
+//     height: 862px;
      
 
-        @media screen and(min-width:1200px) {
-            padding-right: 12px;
-            padding-left: 12px;
-            width: 1200px;
-            height: 1053px;
-            background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
-        }
-    width: 100%;
+//         @media screen and(min-width:1200px) {
+//             padding-right: 12px;
+//             padding-left: 12px;
+//             width: 1200px;
+//             height: 1053px;
+//             background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
+//         }
+//     width: 100%;
 
-}
+// }
 .container__products-ice-cream{
     
     background-position: center;
@@ -160,11 +162,7 @@
 
     display: block;
     text-align: center;
-padding-bottom: 164px;
-}
-
-last-child {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .products__name {

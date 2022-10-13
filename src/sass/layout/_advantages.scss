@@ -1,17 +1,23 @@
 .advantages {
     background-color: var(--background-gre);
+    width: 100%;
 
     &_container {
-        width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
-        margin: 0 auto;
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
 
-    @media screen and (max-width: 767px) {
-            padding: 21px 45px 36px;
-        }
     @media screen and (min-width: 768px) {
-            padding: 24px 76px 40px;
+        width: 768px;
+            padding: 0px 76px 40px;
+            margin-left: auto;
+                margin-right: auto;
+        }
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+            padding-bottom:86px;
+            margin-left: auto;
+                margin-right: auto;
         }
 
         @media screen and (min-width: 1200px){
@@ -44,14 +50,13 @@
           }
     @media screen and(min-width: 1200px) {
             flex-basis: calc(100% / 3 - 32px);
-            margin-left: 32px;
+            gap: 32px;
         }
     }
 
     &_content {
         display: block;
         margin-bottom: 18px;
-        font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -63,32 +68,30 @@
         color: #FCFCFC;
     @media screen and (min-width: 768px) {
             margin-bottom: 16px;
-            font-family: 'Montserrat';
             font-weight: 700;
             font-size: 48px;
             line-height: 1.23;
         }
     }
     &_text {
-        font-family: 'Montserrat';
         font-weight: 700;
         font-size: 12px;
-        line-height: 170%;
+        line-height: 1.7;
     
         text-align: center;
     
         color: #FCFCFC; 
-        margin-bottom: 24px;
+        margin-bottom: 22px;
         
     @media screen and (min-width: 768px) {
-        font-family: 'Montserrat';
         font-size: 14px;
-        line-height: 174%;
+        line-height: 1.8;
+        font-weight: normal;
         }
     @media screen and (min-width: 1200px) {
-        ont-family: 'Montserrat';
         font-size: 16px;
-        line-height: 176%;
+        font-weight: normal;
+        line-height: 1.8;
         text-align: center;
         letter-spacing: 0.02em;
     }
@@ -121,12 +124,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 18px;
+    margin-bottom: 24px;
 
     @media screen and (min-width: 768px) {
         margin-bottom: 32px;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         margin-bottom: 40px;
     }
 
