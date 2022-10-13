@@ -1,22 +1,19 @@
 .modal-window__locations,
 .modal-window__franchise {
   position: absolute;
-  height: 300px;
-  width: 100%;
+  // height: 300px;
+  width: calc(100% - 40px);
   background-color: var(--txt-color-btnwhi);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3.5% 4%;
+  padding: 28px;
+
+  border: 2px solid var(--button-color-yel);
+  border-radius: 10px;
 }
 .modal-window__franchise {
-  height: 420px;
-}
-.is-hidden {
-  opacity: 0.2;
-  visibility: hidden;
-  transform: translate(0%, 100%);
-  pointer-events: none;
+  // height: 420px;
 }
 .modal-window__close-btn {
   display: flex;
