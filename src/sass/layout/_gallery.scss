@@ -29,6 +29,19 @@
 
 .gallery__slides-container {
     position: relative;
+    margin-bottom: 80px;
+}
+
+@media screen and(min-width:768px){
+    .gallery__slides-container {
+            margin-bottom: 60px;
+        }
+}
+
+@media screen and(min-width:1200px) {
+    .gallery__slides-container {
+        margin-bottom: 128px;
+    }
 }
 
 .prev,
