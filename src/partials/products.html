@@ -6,58 +6,57 @@
       <div class="products__set">
         <div class="products__item">
           <div class="products__bg ice-cream">
-          <picture class="products__poto">
-            <source
-              srcset="
-                ./images/products/products1-desk_1x.webp 1x,
-                ./images/products/products1-desk_2x.webp 2x
-              "
-              media="(min-width:1200px)" />
-            <source
-              srcset="
-                ./images/products/products1-desk_1x.png 1x,
-                ./images/products/products1-desk_2x.png 2x
-              "
-              media="(min-width:1200px)" />
-            <source
-              srcset="
-                ./images/products/products1-tab_1x.webp 1x,
-                ./images/products/products1-tab_2x.webp 2x
-              "
-              media="(min-width:768px)" />
-            <source
-              srcset="
-                ./images/products/products1-tab_1x.png 1x,
-                ./images/products/products1-tab_2x.png 2x
-              "
-              media="(min-width:768px)" />
-            <source
-              srcset="
-                ./images/products/products1-mob_1x.webp 1x,
-                ./images/products/products1-mob_2x.webp 2x
-              "
-              media="(max-width:767px)" />
-            <img
-              class="products__img img-ice-cream"
-              srcset="./images/products/products1-mob_2x.png 2x"
-              src="./images/products/products1-mob_1x.png"
-              alt="ice cream"
-          /></picture>
-          
+            <picture class="products__poto">
+              <source
+                srcset="
+                  ./images/products/products1-desk_1x.webp 1x,
+                  ./images/products/products1-desk_2x.webp 2x
+                "
+                media="(min-width:1200px)" />
+              <source
+                srcset="
+                  ./images/products/products1-desk_1x.png 1x,
+                  ./images/products/products1-desk_2x.png 2x
+                "
+                media="(min-width:1200px)" />
+              <source
+                srcset="
+                  ./images/products/products1-tab_1x.webp 1x,
+                  ./images/products/products1-tab_2x.webp 2x
+                "
+                media="(min-width:768px)" />
+              <source
+                srcset="
+                  ./images/products/products1-tab_1x.png 1x,
+                  ./images/products/products1-tab_2x.png 2x
+                "
+                media="(min-width:768px)" />
+              <source
+                srcset="
+                  ./images/products/products1-mob_1x.webp 1x,
+                  ./images/products/products1-mob_2x.webp 2x
+                "
+                media="(max-width:767px)" />
+              <img
+                class="products__img img-ice-cream"
+                srcset="./images/products/products1-mob_2x.png 2x"
+                src="./images/products/products1-mob_1x.png"
+                alt="ice cream"
+            /></picture>
+
             <h3 class="products__name">ice cream</h3>
             <p class="products__text">
               Soft ice cream with a delicate taste. Made with milk, cream, sugar
               and natural stabilizer
             </p>
-            <button type="button" class="products__button--open " data-modal-open>
-          
-
-    
-            </button>
+            <button
+              type="button"
+              class="products__button--open"
+              data-modal-open
+            ></button>
           </div>
-     
-      </div>
-
+        </div>
+      
       <div class="container__products-ice-coffee">
         <div class="products__item">
           <picture class="products__poto">
@@ -104,8 +103,12 @@
               without the use of preservatives and flavor enhancers
             </p>
             <div class="products__bg">
-              <button type="button" class="products__button--open" data-modal-open></button></div>
-            
+              <button
+                type="button"
+                class="products__button--open"
+                data-modal-open
+              ></button>
+            </div>
           </div>
         </div>
       </div>
@@ -155,10 +158,11 @@
               Sweet drinks based on milk and ice cream, supplemented with
               syrups, fruits, berries and other sweets of your choice
             </p>
-            <button type="button" class="products__button--open" data-modal-open>
-              
-
-            </button>
+            <button
+              type="button"
+              class="products__button--open"
+              data-modal-open
+            ></button>
           </div>
         </div>
       </div>
@@ -186,8 +190,7 @@
     <ul class="modal__products-list">
       <li class="modal__products-item">
         <div class="modal__products-quantity">
-          <div class="modal__products-value
-          ">320</div>
+          <div class="modal__products-value">320</div>
           kcal
         </div>
         <div class="modal__products-quantity">
@@ -232,40 +235,39 @@
       </li>
     </ul>
     <form class="prod__form">
- <span class="prod-modal__name">
-      <input
-        type="text"
-        class="pr-mod__input"
-        name="user_name"
-        id="name"
-        placeholder="Name"
-        required
-        autofocus
-      />
-    </span>
-    <span class="prod-modal__phone">
-      <input
-        type="tel"
-        class="pr-mod__input"
-        name="user_phone"
-        id="phone"
-        required
-        autofocus
-        placeholder="Phone"
-      />
-
-      
-    </span>
-    <span class="prod-modal__name imput-imput-textarea">
-        <textarea class="pr-mod__input--textarea"
+      <span class="prod-modal__name">
+        <input
+          type="text"
+          class="pr-mod__input"
+          name="user_name"
+          id="name"
+          placeholder="Name"
+          required
+          autofocus
+        />
+      </span>
+      <span class="prod-modal__phone">
+        <input
+          type="tel"
+          class="pr-mod__input"
+          name="user_phone"
+          id="phone"
+          required
+          autofocus
+          placeholder="Phone"
+        />
+      </span>
+      <span class="prod-modal__name imput-imput-textarea">
+        <textarea
+          class="pr-mod__input--textarea"
           name="User_massage"
           id="User-comments"
           placeholder="Comment"
         ></textarea>
       </span>
-   <button type="button" class="products-modal__button" data-modal-close>Submit</button>
-   
+      <button type="button" class="products-modal__button" data-modal-close>
+        Submit
+      </button>
     </form>
-
   </div>
 </div>
