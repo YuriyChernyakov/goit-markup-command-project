@@ -5,20 +5,21 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+@media screen and (min-width:768px){
     
+    background-image: url(/src/images/bcgrounds/bcground2-tab_1x.jpg);
+    }
   
 }
 .products__container{
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 768px;
+    height: 862px;
+     
 
-    @media screen and(min-width:768px) {
-            padding-right: 32px;
-            padding-left: 32px;
-            width: 768px;
-            height: 862px;
-            background-image: url(/src/images/bcgrounds/bcground2-tab_1x.jpg);
-        }
         @media screen and(min-width:1200px) {
             padding-right: 12px;
             padding-left: 12px;
@@ -236,7 +237,12 @@ last-child {
 }
 
 .products__modal-container {
-    max-width: 280px;
+        @media screen and(min-width:768px) {
+                width: 568px;
+                
+            }
+         @media screen and(max-width:767px){max-width: 280px;}
+   
 
     margin-left: auto;
     margin-right: auto;
@@ -310,7 +316,14 @@ font-family: Montserrat;
 .modal__products-item {
     display: flex;
     justify-content: space-around;
-}
+ @media screen and(min-width:768px) {
+        gap: 20px;
+        justify-content: center;
+        }
+        
+    }
+
+
 
 .modal__products-item-set {
     display: flex;
@@ -318,6 +331,11 @@ font-family: Montserrat;
 }
 
 .ingredients__list {
+@media screen and(min-width:768px) {
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
     display: flex;
     flex-direction: column;
     padding-bottom: 48px;
@@ -341,7 +359,8 @@ font-family: Montserrat;
 
 }
 .products__modal{
-    width: 100%;
+
+    width: 280px;
     height: 990px;
     padding-left: 20px;
     padding-right: 20px;
@@ -361,13 +380,23 @@ font-family: Montserrat;
     border-radius: 10px;
     width: 240px;
     height: 42px;
-    border: 1px solid rgba(132, 161, 120, 1)
+    border: 1px solid rgba(132, 161, 120, 1);
+    @media screen and (min-width:768px) {
+        width: 368px;
+        height: 42px;
+        
+    }
 }
 textarea{
     width: 240px;
     min-height: 84px;
     resize: none;
     border-radius: 10px;
+    @media screen and (min-width:768px) {
+            width: 368px;
+            height: 42px;
+    
+        }
 }
 .prod__form{
     padding-bottom: 32px;
