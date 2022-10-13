@@ -256,12 +256,19 @@ last-child {
 
 }
 .modal__products-value {
+font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 2.8;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 8px;
     text-align: center;
     border-radius: 50%;
     display: block;
     width: 43px;
     height: 43px;
- 
+box-shadow: 0px 6px 20px 0px rgba(10, 136, 23, 0.25);
     background-color: #9CBE8F;
 }
 
@@ -281,7 +288,12 @@ last-child {
 
     padding-bottom: 0;
 
-
+font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .products__modal-container-title {
@@ -295,6 +307,7 @@ last-child {
 }
 
 .products__modal-list-ingredients {
+    padding-bottom: 24px;
     display: block;
     font-family: Montserrat;
     font-size: 20px;
@@ -317,6 +330,7 @@ last-child {
     display: flex;
     flex-direction: column;
     padding-bottom: 48px;
+    gap:11px;
 }
 
 .ingredients__set {
@@ -347,15 +361,33 @@ last-child {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
+  
 
 
 }
 .pr-mod__input{
+    border-radius: 10px;
     width: 240px;
     height: 42px;
+    border: 1px solid rgba(132, 161, 120, 1)
 }
 textarea{
     width: 240px;
-
+    min-height: 84px;
     resize: none;
+    border-radius: 10px;
+}
+.prod__form{
+    padding-bottom: 32px;
+    gap: 16px;
+    
+}
+.products-modal__button{
+
+    border-radius: 10px;
+    background-color: #F8D24E;
+    color: #131313;
+    width: 132px;
+    height: 42px;
 }

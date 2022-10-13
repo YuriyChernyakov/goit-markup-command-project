@@ -49,7 +49,7 @@
               Soft ice cream with a delicate taste. Made with milk, cream, sugar
               and natural stabilizer
             </p>
-            <button type="button" class="open-mobile-menu-products"></button>
+            <button type="button" class="open-mobile-menu-products" data-modal-open></button>
           </div>
        
       </div>
@@ -99,7 +99,7 @@
               Fragrant invigorating drink created from 100% natural ingredients
               without the use of preservatives and flavor enhancers
             </p>
-            <button type="button" class="open-mobile-menu-products"></button>
+            <button type="button" class="open-mobile-menu-products" data-modal-open></button>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
               Sweet drinks based on milk and ice cream, supplemented with
               syrups, fruits, berries and other sweets of your choice
             </p>
-            <button type="button" class="open-mobile-menu-products"></button>
+            <button type="button" class="open-mobile-menu-products" data-modal-open></button>
           </div>
         </div>
       </div>
@@ -221,9 +221,8 @@
         <div>10g</div>
       </li>
     </ul>
-    <form class="prod__form"></form>
-
-    <span class="prod-modal__name">
+    <form class="prod__form">
+ <span class="prod-modal__name">
       <input
         type="text"
         class="pr-mod__input"
@@ -245,14 +244,18 @@
         placeholder="Phone"
       />
 
-      <span class="prod-modal__name imput-imput-textarea">
-        <textarea
+      
+    </span>
+    <span class="prod-modal__name imput-imput-textarea">
+        <textarea class="pr-mod__input--textarea"
           name="User_massage"
           id="User-comments"
           placeholder="Comment"
         ></textarea>
       </span>
-    </span>
-    <span class=""> </span>
+   <button type="button" class="products-modal__button" data-modal-close>Submit</button>
+   
+    </form>
+
   </div>
 </div>
