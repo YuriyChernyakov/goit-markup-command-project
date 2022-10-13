@@ -343,6 +343,10 @@ font-family: Montserrat;
     flex-direction: column;
     padding-bottom: 48px;
     gap:11px;
+@media screen and(min-width:768px) {
+    padding-right: 40px;
+    padding-left: 40px;
+}    
 }
 
 .ingredients__set {
@@ -366,13 +370,25 @@ font-family: Montserrat;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 280px;
-    height: 990px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 28px;
-    padding-bottom: 32px;
     background-color: #F5F5F5;
+   
+    @media screen and(max-width:767px) {
+        width: 280px;
+            height: 990px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 28px;
+            padding-bottom: 32px;
+    }
+   @media screen and(min-width :768px){
+width: 568px;
+    height: 995px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 32px;
+
+   }
+
 }
 .prod__form{
     display: flex;
