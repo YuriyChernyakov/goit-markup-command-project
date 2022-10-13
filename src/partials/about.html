@@ -1,54 +1,99 @@
-<section class="about">
-    <div class="container about__container">
-        <p class="about-label">tradition and love</p>
+<section class="about" id="about">
+  <div class="container about__container">
+    <p class="about-label">tradition and love</p>
 
-        <h2 class="about-title">how <span class="about-title__text">it’s </span><span class="about-title__text">made?</span></h2>
-        <div class="about-block">
-            <picture>
-                <source srcset="./images/about/about-desk_1x.webp 1x, ./images/about/about-desk_2x.webp 2x" media="(min-width: 1200px)"/>
-                <source srcset="./images/about/about-desk_1x.png 1x, ./images/about/about-desk_2x.png 2x" media="(min-width: 1200px)" />
-                <source srcset="./images/about/about-tab_1x.webp 1x, ./images/about/about-tab_2x.webp 2x" media="(min-width: 768px)"/>
-                <source srcset="./images/about/about-tab_1x.png 1x, ./images/about/about-tab_2x.png 2x" media="(min-width: 768px)"/>
-                <source srcset="./images/about/about-mob_1x.webp 1x, ./images/about/about-mob_2x.webp 2x" media="(max-width: 767px)"/>
-                <img srcset="./images/about/about-mob_2x.png 2x" src="./images/about/about-mob_1x.png" alt="the cow is grazing in the meadow" class="about-image">
-            </picture>
-            <div class="about-block-info">
-                <p class="about-paragraph about-paragraph__first">Ice is a place where you will become not only a little
-                    happier, but also healthier.
-                    Health is the main value for us, and
-                    we follow it when creating our handmade desserts.</p>
-                <p class="about-paragraph about-paragraph__second">We use traditional recipes and 100% natural ingredients. Our
-                    products are so natural
-                    that they can be given to children
-                    from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23
-                    milkshakes.
-                </p>
-                <p class="about-paragraph about-paragraph__third">This is enough to choose ice cream and
-                coffee for any mood!
-                </p>
-                <button class="about-button " type="button" data-modal-open>Read more</button>
-            </div>
-        </div>
+    <h2 class="about-title">
+      how <span class="about-title__text">it’s </span
+      ><span class="about-title__text">made?</span>
+    </h2>
+    <div class="about-block">
+      <picture>
+        <source
+          srcset="
+            ./images/about/about-desk_1x.webp 1x,
+            ./images/about/about-desk_2x.webp 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/about/about-desk_1x.png 1x,
+            ./images/about/about-desk_2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/about/about-tab_1x.webp 1x,
+            ./images/about/about-tab_2x.webp 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/about/about-tab_1x.png 1x,
+            ./images/about/about-tab_2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/about/about-mob_1x.webp 1x,
+            ./images/about/about-mob_2x.webp 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          srcset="./images/about/about-mob_2x.png 2x"
+          src="./images/about/about-mob_1x.png"
+          alt="the cow is grazing in the meadow"
+          class="about-image"
+        />
+      </picture>
+      <div class="about-block-info">
+        <p class="about-paragraph about-paragraph__first">
+          Ice is a place where you will become not only a little happier, but
+          also healthier. Health is the main value for us, and we follow it when
+          creating our handmade desserts.
+        </p>
+        <p class="about-paragraph about-paragraph__second">
+          We use traditional recipes and 100% natural ingredients. Our products
+          are so natural that they can be given to children from the age of
+          three years. Sweets lovers can expect 55 types of ice cream, 15 types
+          of coffee and 23 milkshakes.
+        </p>
+        <p class="about-paragraph about-paragraph__third">
+          This is enough to choose ice cream and coffee for any mood!
+        </p>
+        <button class="about-button" type="button" data-modal-open>
+          Read more
+        </button>
+      </div>
     </div>
-
+  </div>
 </section>
 <div class="backdrop is-hidden" data-modal>
-    <div class="about-modal">
-        <button type="button" class="about-modal__btn" data-modal-close>
-            <svg class="about-modal__icon" width="9" height="9">
-                <use href="./images/symbol-defs.svg#icon-close"></use>
-            </svg>
-        </button>
-        <h2 class="about-modal__title">How it’s made?</h2>
-        <div class="adaptive-wrap">
-            <iframe class="about-video" src="https://www.youtube.com/embed/DuDbvnM2KCE" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <p class="about-modat__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+  <div class="about-modal">
+    <button type="button" class="about-modal__btn" data-modal-close>
+      <svg class="about-modal__icon" width="9" height="9">
+        <use href="./images/symbol-defs.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="about-modal__title">How it’s made?</h2>
+    <div class="adaptive-wrap">
+      <iframe
+        class="about-video"
+        src="https://www.youtube.com/embed/DuDbvnM2KCE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
-
+    <p class="about-modat__text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    </p>
+  </div>
 </div>
