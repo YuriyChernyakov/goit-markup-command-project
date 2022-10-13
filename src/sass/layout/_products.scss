@@ -248,6 +248,7 @@ last-child {
 .ingredients__list {
     display: flex;
     flex-direction: column;
+    padding-bottom: 48px;
 }
 
 .ingredients__set {
@@ -265,4 +266,28 @@ last-child {
     width: 132px;
     height: 100%;
 
+}
+.products__modal{
+    width: 100%;
+    height: 990px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+    padding-bottom: 32px;
+}
+.prod__form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+.pr-mod__input{
+    width: 240px;
+    height: 42px;
+}
+textarea{
+    width: 240px;
+
+    resize: none;
 }
