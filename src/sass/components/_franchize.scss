@@ -3,41 +3,103 @@
   font-family: 'Seymour One';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 1.4;
   align-items: center;
   text-align: center;
   color: var(--txt-color-blck);
-  margin-bottom: 24px;
+  margin-bottom: 1.88%;
 }
 .franchise__page {
   font-family: 'Montserrat';
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.4;
   color: var(--txt-color-blck);
-  margin-bottom: 32px;
+  margin-bottom: 1.88%;
 }
 .franchise__input,
 .franchise__comm {
-  width: 362px;
-  height: 42px;
+  width: 100%;
+  height: 36px;
   border: 1px solid rgba(132, 161, 120, 1);
   border-radius: 10px;
   background-color: rgba($color: #f8d24e, $alpha: 0.1);
 }
 .franchise__comm {
-  height: 84px;
+  height: 60px;
+  min-height: 60px;
 }
 .franchise__label {
-  margin-bottom: 16px;
+  margin-bottom: 1.88%;
+  width: 85%;
 }
 .franchise__label:nth-child(4) {
-  margin-bottom: 32px;
+  margin-bottom: 1.88%;
 }
 .franchise__form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .btn-size {
   width: 121px;
+  height: 32px;
+}
+@media screen and (min-width: 480px) {
+  .franchise__header {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+  .franchise__page {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+  .franchise__input,
+  .franchise__comm {
+    width: 322px;
+    height: 42px;
+  }
+  .franchise__comm {
+    height: 84px;
+  }
+  .franchise__label {
+    margin-bottom: 12px;
+    width: 322px;
+  }
+  .franchise__label:nth-child(4) {
+    margin-bottom: 12px;
+  }
+  .btn-size {
+    width: 121px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .franchise__header {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .franchise__page {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .franchise__input,
+  .franchise__comm {
+    width: 362px;
+    height: 42px;
+  }
+  .franchise__comm {
+    height: 84px;
+  }
+  .franchise__label {
+    margin-bottom: 16px;
+    width: 362px;
+  }
+  .franchise__label:nth-child(4) {
+    margin-bottom: 32px;
+  }
+  .btn-size {
+    width: 121px;
+  }
 }
