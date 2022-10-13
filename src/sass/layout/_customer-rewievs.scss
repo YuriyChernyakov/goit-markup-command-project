@@ -48,9 +48,9 @@
   clip-path: inset(50%);
   margin: -1px;
 }
-// .mySlides {
-//   display: none;
-// }
+.mySlides {
+  display: none;
+}
 .page-reviews__text {
   text-align: center;
   font-family: 'Montserrat';
@@ -84,6 +84,13 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 360px) {
+  .page-reviews__text-container {
+    height: 138px;
+    padding: 8px 39px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .page-reviews__container {
     width: 480px;
@@ -104,7 +111,10 @@
   }
   .page-reviews__text-container {
     height: 138px;
-    padding: 29px 80px;
+    padding: 43px 80px;
+  }
+  .tablet-padding {
+    padding: 30px 80px;
   }
   .page-reviews__text {
     font-weight: 500;
