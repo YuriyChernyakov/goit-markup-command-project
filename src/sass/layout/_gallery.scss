@@ -13,12 +13,15 @@
              rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
         }
     
-        @media screen and(min-width:1200px) {
+        @media screen and(min-width:1200px){
         background: linear-gradient(180deg,
              rgba(132, 161, 120, 1) 0%, rgba(132, 161, 120, 1) 22%,
-             rgba(255, 255, 255, 1) 22%, rgba(255, 255, 255, 1) 100%);
+            rgba(132, 161, 120, 0) 22%,rgba(132, 161, 120, 0) 100%);
         }
-}
+        
+        
+    }
+
 
 .iceCreamSlides {
     display: none;
