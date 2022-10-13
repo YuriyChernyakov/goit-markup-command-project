@@ -6,15 +6,12 @@
     margin-right: auto;
     text-align: center;
     
-    @media screen and(min-width:1200px) {
-            background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
-        }
+  
 }
 .products__container{
     margin-left: auto;
     margin-right: auto;
 
-    
     @media screen and(min-width:768px) {
             padding-right: 32px;
             padding-left: 32px;
@@ -22,7 +19,13 @@
             height: 862px;
             background-image: url(/src/images/bcgrounds/bcground2-tab_1x.jpg);
         }
-
+        @media screen and(min-width:1200px) {
+            padding-right: 12px;
+            padding-left: 12px;
+            width: 1200px;
+            height: 1053px;
+            background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
+        }
     width: 100%;
 
 }
