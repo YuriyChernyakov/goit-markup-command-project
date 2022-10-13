@@ -61,16 +61,6 @@
     background: var(--button-color-gre);
     color: var(--txt-color-blck);
   }
-
-  &.button__icon:focus {
-    background: var(--txt-color-btnwhi);
-    // after adding svg-icon  you have to change 'background' to 'fill'
-  }
-
-  &.button__icon:disabled {
-    background: var(--txt-color-blck);
-    // after adding svg-icon  you have to change 'background' to 'fill'
-  }
 }
 
 .third-type__button {
@@ -116,22 +106,17 @@
     border: 2px solid var(--button-color-gre);
     color: var(--txt-color-blck);
   }
-
-  &.button__icon:focus {
-    background: var(--txt-color-btnwhi);
-    // after adding svg-icon  you have to change 'background' to 'fill'
-  }
-
-  &.button__icon:disabled {
-    background: var(--txt-color-blck);
-    // after adding svg-icon  you have to change 'background' to 'fill'
-  }
 }
 
 .button__icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
   margin-left: 12px;
-  background: var(--txt-color-blck);
-  // after adding svg-icon  you have to change 'background' to 'fill'
+
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: transparent;
 }
 
 @media screen and (max-width: 1199px) {
