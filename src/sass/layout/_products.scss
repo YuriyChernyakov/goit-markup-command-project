@@ -363,13 +363,16 @@ font-family: Montserrat;
 }
 .products__modal{
     position: absolute;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
     width: 280px;
     height: 990px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 28px;
     padding-bottom: 32px;
+    background-color: #F5F5F5;
 }
 .prod__form{
     display: flex;
