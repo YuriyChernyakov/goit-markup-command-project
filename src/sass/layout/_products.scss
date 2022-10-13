@@ -230,15 +230,6 @@ last-child {
 .img-milkshakes {
     box-shadow: 0px 17px 0px 0px rgba(214, 147, 109, 1), 0px 8px 30px 0px rgba(0, 0, 0, 0.25);
 }
-
-.open-mobile-menu-products {
-
-
-    color: #131313;
-    width: 40px;
-    border: 2px solid rgba(19, 19, 19, 1)
-}
-
 .modal-img-ice-cream{
     box-shadow: 0px 5px 0px 0px rgba(156, 190, 143, 0.7), 0px 5px 19px 0px rgba(10, 136, 23, 0.25);
 
@@ -390,4 +381,17 @@ textarea{
     color: #131313;
     width: 132px;
     height: 42px;
+}
+.products__button--open {
+    width: 50px;
+height: 10px;
+    background-image: url(/src/images/symbol-defs.svg#icon-arrow-1);
+
+    &:hover {
+        background-image:url(/src/images/symbol-defs.svg#icon-arrow-2);
+    }
+
+    &:focus {
+        background-image:url(/src/images/symbol-defs.svg#icon-arrow-3);
+    }
 }
