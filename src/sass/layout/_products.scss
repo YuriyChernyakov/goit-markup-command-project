@@ -317,6 +317,7 @@ last-child {
     display: flex;
     flex-direction: column;
     padding-bottom: 48px;
+    gap:11px;
 }
 
 .ingredients__set {
@@ -347,15 +348,25 @@ last-child {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
+  
 
 
 }
 .pr-mod__input{
+    border-radius: 10px;
     width: 240px;
     height: 42px;
+    border: 1px solid rgba(132, 161, 120, 1)
 }
 textarea{
     width: 240px;
-
+    min-height: 84px;
     resize: none;
+    border-radius: 10px;
+}
+.prod__form{
+    padding-bottom: 32px;
+    gap: 16px;
+    
 }
