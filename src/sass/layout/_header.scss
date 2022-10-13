@@ -118,6 +118,7 @@
 .container {
   width: 100%;
   margin: 0;
+  height: 100%;
 
   @media screen and(max-width:767px) {
     width: 320px;
@@ -145,10 +146,18 @@
     display: flex;
     margin-top: 32px;
   }
-  height: 502px;
+  height: 400px;
   width: 100%;
   @media screen and (min-width: 768px) {
-    height: 415px;
+    height: 312px;
+  }
+
+  & .container {
+    position: relative;
+  }
+
+  @media screen and(min-width:1200px) {
+    height: 561px;
   }
 }
 
@@ -158,15 +167,19 @@
   @media screen and (min-width: 768px) {
     margin-top: 20px;
   }
-  text-decoration: none;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 28px;
+  }
 }
 
 .third-type__button {
-  margin-left: 8px;
+  margin-left: 12px;
+  max-height: 154px;
 }
 
 .hero__text {
-  padding-top: 110px;
+  padding-top: 7px;
   max-width: 247px;
 
   font-family: 'Seymour One';
@@ -186,11 +199,23 @@
       max-width: 183px;
       line-height: 1.25;
     }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 38px;
+
+      max-width: 367px;
+    }
   }
   @media screen and (min-width: 768px) {
     font-size: 18px;
     max-width: 182px;
     padding-top: 104px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 38px;
+
+    max-width: 367px;
+    padding-top: 15px;
   }
 }
 
@@ -210,6 +235,10 @@
     right: -75%;
     transform: translate(-28%, -16%);
   }
+
+  @media screen and (min-width: 1200px) {
+    transform: translate(7%, -62%) scale(1.7);
+  }
 }
 
 .hero__dots {
@@ -219,6 +248,10 @@
   left: 50%;
   transform: translate(-50%);
   width: 100vw;
+
+  @media screen and (min-width: 1200px) {
+    transform: translate(-22%, -35%) scale(1.55);
+  }
 }
 
 .hero__dish-icecream {
@@ -235,6 +268,9 @@
   position: absolute;
   left: 32px;
   bottom: 13px;
+  @media screen and (min-width: 1200px) {
+    transform: scale(1.48) translate(15%, -30%);
+  }
 }
 
 .dish__text--thumb {
@@ -256,8 +292,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 140%;
+  line-height: 1.4;
   color: var(--txt-color-btnwhi);
+  @media screen and (min-width: 1200px) {
+    width: 200px;
+
+    font-size: 14px;
+    margin-top: 111px;
+    margin-left: 256px;
+  }
 }
 
 .hero__stat {
@@ -290,6 +333,10 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--txt-color-blck);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 46px;
+  }
 }
 
 .hero__number--descr {
@@ -298,10 +345,11 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 1.25;
-
-  text-align: right;
-
+  text-align: end;
   color: var(--txt-color-btnwhi);
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .arrow {
@@ -309,5 +357,10 @@
 }
 
 .hero__buttons .first-type__button {
-  text-decoration: none;
+  color: var(--txt-color-blck);
+  &:focus {
+    color: var(--txt-color-btnwhi);
+    border: 2px solid var(--button-color-green);
+    outline: none;
+  }
 }
