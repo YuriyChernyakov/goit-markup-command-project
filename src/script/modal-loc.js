@@ -1,3 +1,4 @@
+
 (() => {
   const refs = {
     openModalBtn: document.querySelector("[modal-locations-open]"),
