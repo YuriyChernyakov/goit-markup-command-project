@@ -5,20 +5,21 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+@media screen and (min-width:768px){
     
+    background-image: url(/src/images/bcgrounds/bcground2-tab_1x.jpg);
+    }
   
 }
 .products__container{
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    padding-right: 32px;
+    padding-left: 32px;
+    width: 768px;
+    height: 862px;
+     
 
-    @media screen and(min-width:768px) {
-            padding-right: 32px;
-            padding-left: 32px;
-            width: 768px;
-            height: 862px;
-            background-image: url(/src/images/bcgrounds/bcground2-tab_1x.jpg);
-        }
         @media screen and(min-width:1200px) {
             padding-right: 12px;
             padding-left: 12px;
@@ -245,7 +246,6 @@ last-child {
         max-width: 280px;
     }
 
-
     margin-left: auto;
     margin-right: auto;
 
@@ -335,7 +335,6 @@ font-family: Montserrat;
 }
 
 .ingredients__list {
-
     display: flex;
     flex-direction: column;
     padding-bottom: 48px;
@@ -359,7 +358,8 @@ font-family: Montserrat;
 
 }
 .products__modal{
-    width: 100%;
+
+    width: 280px;
     height: 990px;
     padding-left: 20px;
     padding-right: 20px;

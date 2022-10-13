@@ -1,0 +1,19 @@
+.location__header {
+  font-family: 'Seymour One';
+  font-size: 20px;
+  line-height: 1.4;
+  align-items: center;
+  text-align: center;
+  color: var(--txt-color-blck);
+  margin-bottom: 32px;
+}
+.location__button-link {
+  color: var(--txt-color-blck);
+}
+.map-image {
+  width: 448px;
+  height: 260px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
