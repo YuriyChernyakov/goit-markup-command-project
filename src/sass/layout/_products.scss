@@ -3,6 +3,27 @@
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+
+@media screen and(max-width:767px){
+ 
+    background: url(/src/images/bcgrounds/bcground1-mob_1x.jpg)center top no-repeat;
+    
+}
+@media screen and(max-width:767px){
+background: url(/src/images/bcgrounds/bcground2-mob_1x.jpg)center center no-repeat;
+}
+
+@media screen and(max-width:767px){
+background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repeat;
+}
+
+@media screen and(min-width:768px) {
+    background-image: url(/src/images/bcgrounds/bcground1-tab_1x.jpg);
+    }
+
+@media screen and(min-width:1200px){
+    background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
+}
 }
 .products__container{
     margin-left: auto;
@@ -349,6 +370,7 @@ font-family: Montserrat;
 
 }
 .products__modal{
+overflow: auto;
     position: absolute;
     top: 50%;
     left: 50%;
