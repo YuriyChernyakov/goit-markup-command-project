@@ -140,7 +140,9 @@
 }
 
 .hero {
-  position: relative;
+  width: 320px;
+  height: 502px;
+  // position: relative;
   background-color: var(--background-gre);
   &__buttons {
     display: flex;
@@ -159,6 +161,11 @@
   @media screen and(min-width:1200px) {
     height: 561px;
   }
+}
+.container__hero{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__buttons {
@@ -179,7 +186,6 @@
 }
 
 .hero__text {
-  padding-top: 7px;
   max-width: 247px;
 
   font-family: 'Seymour One';
@@ -227,7 +233,7 @@
 
   right: 50%;
 
-  transform: translate(50%, 16%);
+  transform: translate(54%, 16%);
 
   @media screen and (min-width: 768px) {
     width: 100%;
@@ -242,6 +248,8 @@
 }
 
 .hero__dots {
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
 
   bottom: 0;
