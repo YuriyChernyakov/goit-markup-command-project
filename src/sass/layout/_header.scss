@@ -2,7 +2,7 @@
 
 &__container {
     padding-top: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 58px;
     padding-left: 20px;
     display: flex;
     align-items:center;
@@ -39,6 +39,11 @@
     line-height: 1.25;
    
 }
+}
+
+@media screen and (min-width: 768px) {
+  .header__container{
+  padding-bottom: 40px;}
 }
 
 .btn__header {
@@ -124,12 +129,16 @@
 
   @media screen and(max-width:767px) {
     width: 320px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   @media screen and(min-width:768px) {
     width: 768px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -227,7 +236,7 @@
   @media screen and (min-width: 768px) {
     font-size: 18px;
     max-width: 182px;
-    padding-top: 32px;
+    padding-top: 0;
   }
   @media screen and (min-width: 1200px) {
     font-size: 38px;
@@ -242,11 +251,19 @@
   z-index: 20;
   position: absolute;
   bottom: -53px;
-  @media screen and (min-width: 768px){
-    bottom: 16px;
-    left: 160px;
-  }
+  
 }
+@media screen and (min-width: 768px){
+  .hero__isecream{
+    bottom: -56px;
+    left: 365px;}
+  }
+  @media screen and (min-width: 1200px) {
+      .hero__isecream {
+        bottom: -100px;
+        left: 560px;
+      }
+    }
 
 .hero__dots {
   width: 320px;
@@ -286,6 +303,10 @@
     top: 180px;
     left: 32px;
   }
+    @media screen and (min-width: 1200px) {
+      top: 270px;
+      left: 17px;
+    }
   position: absolute;
   left: 17px;
   top: 273px;
