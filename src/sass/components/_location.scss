@@ -2,13 +2,12 @@
   font-family: 'Seymour One';
   font-size: 16px;
   line-height: 1.5;
-  // align-items: center;
   text-align: center;
   color: var(--txt-color-blck);
   margin-bottom: 20px;
 }
 .location__button-link {
-  color: var(--txt-color-blck);
+  color: currentColor;
 }
 .map-image {
   display: block;
@@ -28,30 +27,13 @@
   width: 100%;
 }
 
-@media screen and (min-width: 480px) {
-  // .location__header {
-  //   font-size: 15px;
-  //   line-height: 1.4;
-  //   margin-bottom: 18px;
-  // }
-  // .location__button-link {
-  //   color: var(--txt-color-blck);
-  // }
-  .map-image {
-    // width: 330px;
-    // height: 230px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .location__header {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 32px;
   }
-  .location__button-link {
-    color: var(--txt-color-blck);
-  }
+
   .map-image {
     width: 448px;
     height: 260px;
