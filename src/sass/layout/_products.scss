@@ -231,6 +231,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 margin-left: auto;
 margin-right: auto;
+margin-top: 15px;
     @media screen and(min-width:768px) {
         width: 568px;
 
@@ -332,6 +333,7 @@ font-family: Montserrat;
     flex-direction: column;
     padding-bottom: 48px;
     gap:11px;
+    font-size: 14px;
 @media screen and(min-width:768px) {
     padding-right: 40px;
     padding-left: 40px;
@@ -355,7 +357,7 @@ font-family: Montserrat;
 
 }
 .products__modal{
-overflow: auto;
+    overflow: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -364,7 +366,7 @@ overflow: auto;
    
     @media screen and(max-width:767px) {
         width: 280px;
-            height: 990px;
+            height: 100%;
             padding-left: 20px;
             padding-right: 20px;
             padding-top: 28px;
@@ -386,13 +388,15 @@ width: 568px;
     align-content: center;
     align-items: center;
   
-
-
 }
+
+
+
 .pr-mod__input {
+    padding-left: 10px;
     border-radius: 10px;
     width: 240px;
-    height: 42px;
+    height: 20px;
     border: 1px solid rgba(132, 161, 120, 1);
 
     @media screen and (min-width:768px) {
@@ -402,8 +406,9 @@ width: 568px;
     }
 }
 textarea {
+    padding-left: 7px;
     width: 240px;
-    min-height: 84px;
+    min-height: 80px;
     resize: none;
     border-radius: 10px;
 
@@ -452,7 +457,7 @@ bottom: 20px;
 .close-modal-btn {
 
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 20px;
     display: flex;
     align-items: center;
