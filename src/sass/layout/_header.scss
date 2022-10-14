@@ -5,7 +5,7 @@
     padding-bottom: 58px;
     padding-left: 20px;
     display: flex;
-    align-items:center;
+    align-items: baseline;
 }
 
 &__list {
@@ -41,6 +41,10 @@
 }
 }
 
+.mob-btn__open {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header__container{
   padding-bottom: 40px;}
@@ -48,6 +52,7 @@
 
 .btn__header {
     cursor: pointer;
+    display: block;
     width: 152px;
 @media screen and (max-width: 1199px) {
     display: none;
@@ -180,7 +185,7 @@
   }
 
   @media screen and(min-width:1200px) {
-    height: 561px;
+    height: 610px;
   }
 }
 .container__hero{
@@ -304,7 +309,7 @@
     left: 32px;
   }
     @media screen and (min-width: 1200px) {
-      top: 270px;
+      top: 320px;
       left: 17px;
     }
   position: absolute;
@@ -340,7 +345,7 @@
     width: 200px;
     line-height: 1.4;
     font-size: 14px;
-    margin-top: 111px;
+    margin-top: 151px;
     margin-left: 256px;
   }
 }

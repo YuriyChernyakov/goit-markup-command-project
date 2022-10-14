@@ -1,18 +1,24 @@
 <section class="section section--gallery">
-    <div class="container gallery__slides-container">
+    <div class="container container--gallery">
+        <h2 hidden>Зображення нашого морозива</h2>
+        <picture class="gallery__picture">
+            <source srcset=" 
+                ./images/gallery/gallery-desk_1x.webp 1x, 
+                ./images/gallery/gallery-desk_2x.webp 2x " media="(min-width: 1200px)">
+            <source srcset="
+                ./images/gallery/gallery-desk_1x.png 1x, 
+                ./images/gallery/gallery-desk_2x.png 2x " media="(min-width: 1200px)">
+            <source srcset="
+                ./images/gallery/gallery-tab_1x.webp 1x, 
+                ./images/gallery/gallery-tab_2x.webp 2x " media="(min-width: 768px)">
+            <source srcset="
+                ./images/gallery/gallery-tab_1x.png 1x, 
+                ./images/gallery/gallery-tab_2x.png 2x " media="(min-width: 768px)">
+            <source srcset="
+                ./images/gallery/gallery-mob_1x.webp 1x, 
+                ./images/gallery/gallery-mob_2x.webp 2x " media="(max-width: 767px)">
 
-        <div class="iceCreamSlides">
-            <picture class=" gallery__picture">
-                <source srcset="./images/gallery/gallery-desk_1x.webp 1x, ./images/gallery/gallery-desk_2x.webp 2x" media="(min-width: 1200px)" />
-                <source srcset="./images/gallery/gallery-desk_1x.png 1x, ./images/gallery/gallery-desk_2x.png 2x"
-                    media="(min-width: 1200px)" />
-                <source srcset="./images/gallery/gallery-tab_1x.webp 1x, ./images/gallery/gallery-tab_2x.webp 2x" media="(min-width: 768px)" />
-                <source srcset="./images/gallery/gallery-tab_1x.png 1x, ./images/gallery/gallery-tab_2x.png 2x"
-                    media="(min-width: 768px)" />
-                <source srcset="./images/gallery/gallery-mob_1x.webp 1x, ./images/gallery/gallery-mob_2x.webp 2x" media="(max-width: 767px)" />
-                <img srcset="./images/gallery/gallery-mob_2x.png 2x" src="./images/gallery/gallery-mob_1x.png" alt="Зображення нашого морозива №1"/>
-            </picture>
-        </div>
+            <img class="gallery__picture--img" srcset="./images/gallery/gallery-mob_2x.webp" alt="Зображення нашого морозива" />
+        </picture>
+    </div>
 </section>
-<h2 class="block"></h2>
-<script src="./script/auto-slides.js"></script>
