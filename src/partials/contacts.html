@@ -111,9 +111,7 @@
     <div class="contact-section__buttons-container">
       <button
         type="button"
-        class="button second-type__button second-type__button-contacts"
-        modal-locations-open
-      >
+        class="button second-type__button second-type__button-contacts modal-locations-open">
         Our Locations
         <svg class="button__icon">
           <use href="/src/images/symbol-defs.svg#icon-button-direct"></use>
@@ -121,9 +119,7 @@
       </button>
       <button
         type="button"
-        class="button fourth-type__button fourth-type__button-contacts"
-        modal-franchise-open
-      >
+        class="button fourth-type__button fourth-type__button-contacts modal-franchise-open">
         Franchise
         <svg class="button__icon">
           <use href="/src/images/symbol-defs.svg#icon-button-direct"></use>
@@ -133,17 +129,17 @@
   </div>
 </section>
 
-<div class="backdrop" modal-locations>
+<div class="backdrop modal-locations">
   <div class="modal-window__locations">
-    <button type="button" class="modal-window__close-btn" modal-locations-close>
+    <button type="button" class="modal-window__close-btn modal-locations-close">
       <svg class="modal-window__close-icon">
         <use href="./images/symbol-defs.svg#icon-close"></use>
       </svg>
     </button>
     <p class="location__header">Our Locations</p>
     <form class="location__form">
-      <picture class="location__map"
-        ><source />
+      <picture class="location__map">
+        <source srcset="#">
         <img src="#" alt="map" class="map-image"
       /></picture>
 
@@ -161,10 +157,10 @@
 
 <script src="/src/script/modal-loc.js"></script>
 
-<div class="backdrop is-hidden" modal-franchise>
+<div class="backdrop is-hidden modal-franchise">
   <link rel="stylesheet" href="./sass/components/_modal-loc.scss" />
   <div class="modal-window__franchise">
-    <button type="button" class="modal-window__close-btn" modal-franchise-close>
+    <button type="button" class="modal-window__close-btn modal-franchise-close">
       <svg class="modal-window__close-icon">
         <use href="./images/symbol-defs.svg#icon-close"></use>
       </svg>
