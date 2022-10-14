@@ -38,9 +38,14 @@
             Soft ice cream with a delicate taste. Made with milk, cream, sugar
             and natural stabilizer
           </p>
-        <button type="button" class="products__button--open" data-modal-open>
-
-        </button>
+       <button
+              type="button"
+              class="products__button--open"
+              data-modal-open>
+              <svg width="40px" height="10px" aria-label="Arrow">
+            <use href="/src/images/symbol-defs.svg#icon-arrow-1"></use>
+              </svg>
+          </button>
       </div>
     </div></div>
 
@@ -123,11 +128,15 @@
               syrups, fruits, berries and other sweets of your choice
             </p>
 
-                        <button
+             <button
               type="button"
               class="products__button--open"
-              data-modal-open
-            ></button></div>
+              data-modal-open>
+              <svg width="40px" height="10px" aria-label="Arrow">
+            <use href="/src/images/symbol-defs.svg#icon-arrow-1"></use>
+              </svg>
+          </button>
+        </div>
           </div>
         </div>
      
@@ -138,7 +147,13 @@
 </div>
 <div class="backdrop is-hidden" data-modal> 
   <div class="products__modal">
+     <button type="button" class="close-modal-btn"data-modal-close >
+      <svg class="close-modal-icone">
+        <use href="/src/images/symbol-defs.svg#icon-close"></use>
+      </svg>
+    </button>
   <div class="products__modal-container">
+    
     <h2 class="products__modal-container-title">Chololate icecream</h2>
     <picture class="products__poto-modal">
       <source
