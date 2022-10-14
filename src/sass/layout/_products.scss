@@ -25,6 +25,8 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
     background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
 }
 }
+
+
 .products__container{
     margin-left: auto;
     margin-right: auto;
@@ -170,6 +172,7 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
 
 
 .products__name {
+    text-transform: uppercase;
     padding-top: 123px;
     padding-bottom: 40px;
     font-family: Montserrat;
@@ -188,7 +191,7 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
     }
 
     @media screen and(min-width:1200px) {
-        padding-top: 166px;
+        padding-top: 196px;
         padding-bottom: 65px;
 
 
