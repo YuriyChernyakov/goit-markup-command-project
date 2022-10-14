@@ -398,6 +398,7 @@ width: 568px;
     width: 240px;
     height: 20px;
     border: 1px solid rgba(132, 161, 120, 1);
+    background: rgba(248, 210, 78, 0.1);
 
     @media screen and (min-width:768px) {
         width: 368px;
@@ -406,6 +407,7 @@ width: 568px;
     }
 }
 textarea {
+    background: rgba(248, 210, 78, 0.1);
     padding-left: 7px;
     width: 240px;
     min-height: 80px;
@@ -430,6 +432,7 @@ textarea {
     color: #131313;
     width: 132px;
     height: 42px;
+    border: #F8D24E;
 }
 .products__button--open {
     position: absolute;
