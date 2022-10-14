@@ -1,5 +1,22 @@
 .contacts-section {
-    background-color: var(--background-gre);
+    // background-color: var(--background-gre);
+
+    background: linear-gradient(180deg,
+    transparent 0%, transparent 24%,
+    rgba(132, 161, 120, 1) 24%, rgba(132, 161, 120, 1) 100%);
+    
+        
+        @media screen and(min-width:768px) {
+            background: linear-gradient(180deg,
+            transparent 0%, transparent 46%,
+            rgba(132, 161, 120, 1) 46%, rgba(132, 161, 120, 1) 100%);
+        }
+        
+        @media screen and(min-width:1200px) {
+            background: linear-gradient(180deg,
+             transparent 0%, transparent 13%,
+            rgba(132, 161, 120, 1) 13%, rgba(132, 161, 120, 1) 100%);
+        }
 }
 
 .contacts-section__container {
