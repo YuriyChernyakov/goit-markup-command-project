@@ -3,22 +3,20 @@
 }
 
 .contacts-section__container {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 320px;
     padding-bottom: 38px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacts-section__list{
-    // margin-top: -346px;
     margin-bottom: 32px;
 }  
 
 .contact-card{
+    width: 280px;
     margin-bottom: 20px;
-    padding: 40px 20px;
+    padding: 40px 32px;
     background-color: var(--txt-color-btnwhi);
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
@@ -124,7 +122,7 @@
 
 @media screen and (min-width: 480px) {
     .contacts-section__container {
-        width: 480px;
+        width: 320px;
     }
 }
 
@@ -139,8 +137,6 @@
     .contacts-section__list {
         display: flex;
         justify-content: space-between;
-
-        //    margin-top: -304px;
         margin-bottom: 60px;
     }
 
@@ -189,6 +185,7 @@
 
     .schedule__working-days{
         font-size: 14px;
+        font-weight: 500;
     }
 
     .schedule__working-time{

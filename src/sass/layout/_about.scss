@@ -2,14 +2,17 @@
      background-color: var(--background-gre);
 }
 .about__container {
-    padding: 60px 21px 21px;
+    padding-bottom: 42px;
+
+    margin-left: auto;
+    margin-right: auto;
    
 }
 @media screen and (min-width:768px) {
     .about__container{
         padding-left: 32px;
         padding-right: 32px;
-        padding-bottom: 24px;
+        padding-bottom: 48px;
     }
     
 }
@@ -17,13 +20,12 @@
     .about__container {
         padding-left: 16px;
         padding-right: 121px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
 
 }
 .about-label {
     margin-bottom: 12px;
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 18px;
     line-height: 1.29;
@@ -153,7 +155,7 @@ position: relative;
 }
 
 .about-paragraph__first {
-    padding-top: 51px;
+    padding-top: 40px;
     padding-bottom: 4px;
     line-height: 1.75;
 }
@@ -217,7 +219,7 @@ position: relative;
 @media screen and (min-width:768px){
    .about-button{
    
-    margin-left: 35px;
+    margin-left: 32px;
     margin-top: 48px;
     margin-bottom: 2px;
    }
