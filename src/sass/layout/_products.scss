@@ -13,27 +13,25 @@
 }
 .products__container-size{
     margin-left: auto;
-    margin-right: auto;
-}
-// .products__container{
-//     margin-left: auto;
-//     margin-right: auto;
-//     width: 768px;
-//     height: 862px;
+    margin-right: auto; 
+    // padding-right: 32px;
+    // padding-left: 32px;
+    // width: 768px;
+    // height: 862px;
      
 
-//         @media screen and(min-width:1200px) {
-//             padding-right: 12px;
-//             padding-left: 12px;
-//             width: 1200px;
-//             height: 1053px;
-//             background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
-//         }
-//     width: 100%;
+    //     @media screen and(min-width:1200px) {
+    //         padding-right: 12px;
+    //         padding-left: 12px;
+    //         width: 1200px;
+    //         height: 1053px;
+    //         background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
+    //     }
+    // width: 100%;
 
-// }
-.container__products-ice-cream{
-    
+}
+.products__bg-cont-ice-cream{
+  
     background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
@@ -42,9 +40,12 @@
     @media screen and(max-width:767px) {
         background-image: url(/src/images/bcgrounds/bcground1-mob_1x.jpg);
     }
-    
+  @media screen and(min-width:768px) {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
 }
-.container__products-ice-coffee{
+.products__bg-cont-ice-coffee{
  
         background-position: center;
         background-repeat: no-repeat;
@@ -54,9 +55,12 @@
     @media screen and(max-width:767px){
         background-image: url(/src/images/bcgrounds/bcground2-mob_1x.jpg);
     }
-   
+  @media screen and(min-width:768px) {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
 }
-.container__products-milkshakes{
+.products__bg-cont-milkshakes{
 
         background-position: center;
         background-repeat: no-repeat;
@@ -66,7 +70,10 @@
     @media screen and(max-width:767px){
         background-image: url(/src/images/bcgrounds/bcground3-mob_1x.jpg);
     }
-    
+ @media screen and(min-width:768px){
+    margin-left: 0px;
+    margin-right: 0px;
+ }
 }
 .products__poto {
     z-index: 2;
@@ -117,9 +124,12 @@
 
     @media screen and (min-width:768px) {
         display: flex;
-       
-        ;
+       gap: 16px;
+
     }
+  @media screen and (min-width:1200px){
+    gap: 30px;
+  }
 }
 
 .products__bg {
@@ -162,8 +172,9 @@
 
     display: block;
     text-align: center;
-    padding-bottom: 60px;
+padding-bottom: 164px;
 }
+
 
 .products__name {
     padding-top: 123px;
