@@ -19,8 +19,6 @@
 }
 
 .page-reviews__text-container {
-  display: flex;
-  align-items: center;
   width: 280px;
   height: 260px;
   padding: 34px 39px;
@@ -71,6 +69,8 @@
 
 @media screen and(min-width:1200px) {
   .page-reviews__text-container {
+    margin-right: auto;
+    margin-left: auto;
     width: 968px;
     height: 138px;
     padding-top: 39px;
