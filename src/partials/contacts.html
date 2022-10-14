@@ -111,7 +111,9 @@
     <div class="contact-section__buttons-container">
       <button
         type="button"
-        class="button second-type__button second-type__button-contacts modal-locations-open">
+        class="button second-type__button second-type__button-contacts"
+        modal-location-open
+      >
         Our Locations
         <svg class="button__icon">
           <use href="/src/images/symbol-defs.svg#icon-button-direct"></use>
@@ -129,24 +131,24 @@
   </div>
 </section>
 
-<div class="backdrop modal-locations">
+<div class="backdrop is-hidden" modal-location>
   <div class="modal-window__locations">
-    <button type="button" class="modal-window__close-btn modal-locations-close">
+    <button type="button" class="modal-window__close-btn" modal-location-close>
       <svg class="modal-window__close-icon">
-        <use href="./images/symbol-defs.svg#icon-close"></use>
+        <use href="/src/images/symbol-defs.svg#icon-close"></use>
       </svg>
     </button>
     <p class="location__header">Our Locations</p>
     <form class="location__form">
-      <picture class="location__map">
-        <source srcset="#">
-        <img src="#" alt="map" class="map-image"
-      /></picture>
+      <iframe
+        src="https://www.google.com/maps/d/embed?mid=16qTOvGWKafclhY4h9zZ-QEsXQ50o5IA&ehbc=2E312F"
+        class="map-image"
+      ></iframe>
 
-      <button type="button " class="button second-type__button loc-btn">
+      <button type="button" class="button second-type__button loc-btn">
         <a
           target="_blank"
-          href="https://www.google.com/maps/d/viewer?mid=1C4W0S71lGikqtgdKap2n6c4wxus&hl=ru&ll=50.448958476457285%2C30.541042573101002&z=14"
+          href="https://www.google.com/maps/d/viewer?mid=16qTOvGWKafclhY4h9zZ-QEsXQ50o5IA&ll=34.85507568509897%2C-100.04971880000001&z=4"
           class="location__button-link"
           >Open map</a
         >
@@ -155,19 +157,19 @@
   </div>
 </div>
 
-<script src="/src/script/modal-loc.js"></script>
+<script src="/src/script/modal-locations.js"></script>
 
 <div class="backdrop is-hidden modal-franchise">
   <link rel="stylesheet" href="./sass/components/_modal-loc.scss" />
   <div class="modal-window__franchise">
     <button type="button" class="modal-window__close-btn modal-franchise-close">
       <svg class="modal-window__close-icon">
-        <use href="./images/symbol-defs.svg#icon-close"></use>
+        <use href="/src/images/symbol-defs.svg#icon-close"></use>
       </svg>
     </button>
-    <strong class="franchise__header"
-      >Thank you for your interest in owning an Ice Cream shop</strong
-    >
+    <h3 class="franchise__header">
+      Thank you for your interest in owning an Ice Cream shop
+    </h3>
     <p class="franchise__page">
       Due to the overwhelming volume of franchise requests we are not accepting
       new franchisee applications at this time. Once the application process
