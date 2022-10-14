@@ -131,7 +131,7 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
 
     @media screen and(min-width:768px) {
         width: 224px;
-        height: 428px;
+        height: 458px;
     }
 
     @media screen and(min-width:1200px) {
@@ -170,6 +170,10 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
     margin-bottom: 60px;
 }
 
+.products__text-size{
+    margin-bottom: 90px;
+}
+
 
 .products__name {
     text-transform: uppercase;
@@ -183,7 +187,7 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
     text-align: center;
 
     @media screen and(min-width:768px) {
-        padding-top: 108px;
+        padding-top: 138px;
         padding-bottom: 40px;
 
 
@@ -191,10 +195,8 @@ background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repe
     }
 
     @media screen and(min-width:1200px) {
-        padding-top: 196px;
+        padding-top: 216px;
         padding-bottom: 65px;
-
-
         font-size: 30px;
         font-weight: 700;
         line-height: 1.23;
