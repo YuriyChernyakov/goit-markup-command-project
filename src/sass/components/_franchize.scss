@@ -27,12 +27,17 @@
 
   border: 1px solid rgba(132, 161, 120, 1);
   border-radius: 10px;
-  background-color: rgba($color: #f8d24e, $alpha: 0.1);
+  background-color: rgba($color: var(--button-color-yel), $alpha: 0.1);
 
   font-family: 'Montserrat';
   font-size: 12px;
   line-height: 1.4;
   color: var(--txt-color-blck);
+
+  &:focus {
+     outline: none;
+     border-color: var(--button-color-yel);
+  }
 }
 .franchise__comm {
   display: block;
