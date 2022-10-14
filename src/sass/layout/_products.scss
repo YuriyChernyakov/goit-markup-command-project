@@ -293,6 +293,7 @@ font-family: Montserrat;
 }
 .products__modal-container-title{
     text-align: center;
+    padding-bottom:24px ;
 }
 .products__modal-list-ingredients {
     padding-bottom: 24px;
@@ -430,4 +431,19 @@ textarea {
     &:focus {
         background-image:url(/src/images/symbol-defs.svg#icon-arrow-3);
     }
+}
+.close-modal-btn {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+border: none;
+    background-color: transparent;
+    padding: 0;
+
 }
