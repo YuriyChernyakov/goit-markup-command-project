@@ -1,119 +1,114 @@
 .header {
-&__container {
+  &__container {
     background-color: var(--background-gre);
     padding-top: 18px;
     padding-bottom: 20px;
     padding-left: 20px;
     display: flex;
-    align-items:center;
-    justify-content: space-around;  
-}
+    align-items: center;
+    justify-content: space-around;
+  }
 
-&__list {
+  &__list {
     display: flex;
     margin-left: 270px;
-@media screen and (max-width: 1199px) {
-    display: none;
-}
-}
-&__item {
-    color: #FCFCFC;
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
+  &__item {
+    color: #fcfcfc;
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-}
+  }
 
-&__item:not(:first-child) {
+  &__item:not(:first-child) {
     margin-left: 27px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
-}
-&__item:hover,
-&__item:focus {
-    color:#F8D24E;
-}
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__item:hover,
+  &__item:focus {
+    color: #f8d24e;
+  }
 
-&__link {
+  &__link {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
-   
-}
+  }
 }
 .btn__header {
-    cursor: pointer;
-@media screen and (max-width: 1199px) {
+  cursor: pointer;
+  @media screen and (max-width: 1199px) {
     display: none;
-}
+  }
 }
 .btn-header__icon {
-    position: absolute;
-    fill: var(--primary-white-color--);
-    top: 50%;
-    right: 28px;
-    transform: translateY(-50%);
-    }
-
-
-
+  position: absolute;
+  fill: var(--primary-white-color--);
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+}
 
 /***mobile btn open***/
 .mob-btn__open {
-    margin-left: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  
-    background-color: transparent;
-  
-    border: none;
-  
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-    @media screen and (min-width: 768px) {
-      display: none;
-    }
-  
-    &:hover .mob-btn__icon {
-      fill: var(--accent-color--);
-    }
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: transparent;
+
+  border: none;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 
+  &:hover .mob-btn__icon {
+    fill: var(--accent-color--);
+  }
+}
 
 .mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-  
-    width: 100vw;
-    height: 100vh;
-    padding-top: 12px;
-    padding-bottom: 63px;
-    padding-left: 23px;
-    padding-right: 22px;
-    overflow-y: auto;
-  
-    background-color: var(--background-gre);
-}  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  width: 100vw;
+  height: 100vh;
+  padding-top: 12px;
+  padding-bottom: 63px;
+  padding-left: 23px;
+  padding-right: 22px;
+  overflow-y: auto;
+
+  background-color: var(--background-gre);
+}
 .mobile-menu__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 8px;
-    margin-right: 4px;
-    margin-bottom: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 51px;
 }
 .btn-mobile__close {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 .mobile-menu__link {
-    font-family: 'Montserrat'; 
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.22;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.22;
 
-    color: #FCFCFC;
+  color: #fcfcfc;
 }
 .container {
   width: 100%;
@@ -209,7 +204,6 @@
   @media screen and (min-width: 768px) {
     font-size: 18px;
     max-width: 182px;
-    padding-top: 104px;
   }
   @media screen and (min-width: 1200px) {
     font-size: 38px;
@@ -315,8 +309,11 @@
     overflow: hidden;
   }
   position: absolute;
-  top: 104px;
+  top: 14px;
   right: 20px;
+  @media screen and (min-width: 1200px) {
+    top: 104px;
+  }
 }
 
 .hero__number--margin {
@@ -329,6 +326,7 @@
   font-weight: 900;
   font-size: 28px;
   line-height: 1.21;
+  text-align: right;
 
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -354,6 +352,14 @@
 
 .arrow {
   margin-top: 20px;
+  width: 40px;
+  height: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow__img {
+  fill: var(--txt-color-btnwhi);
 }
 
 .hero__buttons .first-type__button {
