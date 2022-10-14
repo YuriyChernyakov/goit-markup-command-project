@@ -1,29 +1,9 @@
-.products{
+.products__container{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
 
-@media screen and(max-width:767px){
- 
-    background: url(/src/images/bcgrounds/bcground1-mob_1x.jpg)center top no-repeat;
-    
-}
-@media screen and(max-width:767px){
-background: url(/src/images/bcgrounds/bcground2-mob_1x.jpg)center center no-repeat;
-}
-
-@media screen and(max-width:767px){
-background: url(/src/images/bcgrounds/bcground3-mob_1x.jpg)center bottom no-repeat;
-}
-
-@media screen and(min-width:768px) {
-    background-image: url(/src/images/bcgrounds/bcground1-tab_1x.jpg);
-    }
-
-@media screen and(min-width:1200px){
-    background-image: url(/src/images/bcgrounds/bcground1-desk_1x.jpg);
-}
 }
 .products__container{
     margin-left: auto;
@@ -442,7 +422,10 @@ textarea {
     height: 42px;
 }
 .products__button--open {
-    padding-bottom: 60px;
+    position: absolute;
+bottom: 20px;
+   left: 120px;
+   
     background-color: transparent;
     border: none;
 
@@ -452,6 +435,12 @@ textarea {
 
     &:focus {
         background-image:url(/src/images/symbol-defs.svg#icon-arrow-3);
+    }
+                
+    @media screen and(min-width:768px){left: 62px;}
+    @media screen and(min-width:1200px) {
+    bottom: 60px;
+    left: 165px;
     }
 }
 .close-modal-btn {
