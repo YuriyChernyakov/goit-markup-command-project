@@ -294,6 +294,7 @@
 }
 
 .hero__dish-icecream {
+
   @media screen and (max-width: 767px) {
     position: absolute;
     width: 1px;
@@ -315,6 +316,24 @@
   position: absolute;
   left: 17px;
   top: 273px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero__dish-icecream source,
+.hero__dish-icecream img {
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .dish__text--thumb {
