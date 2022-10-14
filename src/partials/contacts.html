@@ -122,6 +122,7 @@
       <button
         type="button"
         class="button fourth-type__button fourth-type__button-contacts modal-franchise-open"
+        modal-franchise-open
       >
         Franchise
         <svg class="button__icon">
@@ -160,10 +161,14 @@
 
 <script src="/src/script/modal-locations.js"></script>
 
-<div class="backdrop is-hidden modal-franchise">
+<div class="backdrop is-hidden" modal-franchise>
   <link rel="stylesheet" href="./sass/components/_modal-loc.scss" />
   <div class="modal-window__franchise">
-    <button type="button" class="modal-window__close-btn modal-franchise-close">
+    <button
+      type="button"
+      class="modal-window__close-btn modal-franchise-close"
+      modal-franchise-close
+    >
       <svg class="modal-window__close-icon">
         <use href="/src/images/symbol-defs.svg#icon-close"></use>
       </svg>
@@ -225,4 +230,4 @@
   </div>
 </div>
 
-<script src="/src/script/modal-fran.js"></script>
+<script src="/src/script/modal-franchise.js"></script>
