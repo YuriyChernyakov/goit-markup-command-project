@@ -21,44 +21,59 @@
       </li>
     </ul>
     <button type="button" class="btn__header button second-type__button">
-      Buy now<svg class="logo__mobile-menu" width="40" height="37">
-        <use href="#"></use>
+      Buy now<svg class="button__icon">
+        <use href="/src/images/symbol-defs.svg#icon-button-direct"></use>
       </svg>
     </button>
-    <button class="mob-btn__open" type="button">
-      <svg class="btn-header__icon" width="5" height="8">
-        <use href="/src/images/symbol-defs.svg#icon-close"></use>
-      </svg>
+    <a href="#" class="logo-mobile"><img src="/src/images/header/logo.webp" alt="logo for mobile"></a>
+    <!-- mobile open btn -->
+    <button class="mob-btn-open js-open-menu" type="button">
+      <svg class="mobile-menu-burger" width="32" height="32"><use href="/src/images/symbol-defs.svg#icon-burger"></use></svg>
     </button>
-    <!-- <div class="mobile-menu container" id="mobile-menu">
+    <div class="mobile-menu toggleMenu js-menu-container" id="mobile-menu">
+      <div class="container mobile-menu__container">
         <div class="mobile-menu__box">
-      <svg class="logo__mobile-menu" width="40" height="37">
-        <use href="#"></use></svg>
-        <button class="btn-mobile__close " type="button">
-          <svg class="mobile-menu__icon" width="19" height="19"><use href="#"></use></svg>
-        </button></div>
-        <div class="menu-container">
-          <nav>
-            <ul class="mobile-menu__list list">
-                <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" href="#">Home</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" href="#">How it’s made?</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" href="">Our products</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a class="link mobile-menu__link" href="">Contact</a>
-              </li>
-            </ul>
-          </nav>
+        <a href="#" class="logo-mobile-menu"><img src="/src/images/header/logo.webp" alt="logo for mobile"></a>
+          <button type="button" class="btn-mobile__close js-close-menu">
+            <svg class="btn-close__icon" width="19" height="19">
+              <use href="/src/images/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
         </div>
-          <button type="button" class="btn__header">Buy now</button>
-    </div> -->
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item">
+              <a class="link mobile-menu__link" href="#">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a class="link mobile-menu__link" href="#">How it’s made?</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a class="link mobile-menu__link" href="">Our products</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a class="link mobile-menu__link" href="">Contact</a>
+            </li>
+        </ul>
+      </nav>
+      <button type="button" class="mobile-menu__btn button second-type__button">
+        Buy now<svg class="button__icon">
+          <use href="/src/images/symbol-defs.svg#icon-button-direct"></use>
+        </svg>
+      </button>
+    </div>
   </div>
+  </div>
+  <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/src/script/mobile-menu.js"></script>
 </header>
+
+<!-- hero -->
 <section class="hero">
   <div class="container container__hero">
     <h2 class="hero__text">
